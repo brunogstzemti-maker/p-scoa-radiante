@@ -1,5 +1,6 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import trustBadges from "@/assets/trust-badges.png";
+import mockupReceitas from "@/assets/mockup-receitas.png";
 
 const HeroSection = () => {
   return (
@@ -30,15 +31,9 @@ const HeroSection = () => {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
-            <div className="relative mx-auto max-w-md mb-6">
-              <div className="w-64 h-64 md:w-80 md:h-80 mx-auto bg-gradient-gold rounded-3xl flex items-center justify-center shadow-gold">
-                <div className="text-center text-primary-foreground">
-                  <p className="text-6xl md:text-7xl font-display font-extrabold">100</p>
-                  <p className="text-lg md:text-xl font-body font-bold mt-1">RECEITAS</p>
-                  <p className="text-sm font-body font-medium opacity-80">de Ovos de Páscoa</p>
-                </div>
+              <div className="relative mx-auto max-w-md mb-6">
+                <img src={mockupReceitas} alt="100 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
               </div>
-            </div>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
