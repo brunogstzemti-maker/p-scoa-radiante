@@ -1,14 +1,18 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import confeiteiraImg from "@/assets/confeiteira.jpg";
+import instagramIcon from "@/assets/instagram-icon.png";
 
 const AboutSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
-          <h2 className="text-3xl md:text-4xl font-display font-extrabold text-foreground text-center mb-12 tracking-wide">
-            SIGA-ME NAS REDES SOCIAIS
-          </h2>
+          <div className="flex items-center justify-center gap-3 mb-12">
+            <img src={instagramIcon} alt="Instagram" className="w-10 h-10" loading="lazy" />
+            <h2 className="text-3xl md:text-4xl font-display font-extrabold text-foreground tracking-wide">
+              SIGA-ME NAS REDES SOCIAIS
+            </h2>
+          </div>
         </AnimateOnScroll>
 
         <div className="flex flex-col md:flex-row items-center gap-10">
