@@ -1,9 +1,5 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import { Check, X, Star } from "lucide-react";
-import mockupOvosColher from "@/assets/mockup-ovos-colher.png";
-import mockupOvosTrufados from "@/assets/mockup-ovos-trufados.png";
-import mockupCardapio from "@/assets/mockup-cardapio-rosa.png";
-import mockupFerrero from "@/assets/mockup-ferrero.png";
 
 const basicPlan = {
   items: [
@@ -33,7 +29,7 @@ const completePlan = {
     "Dicas de precificação para lucrar",
   ],
   bonus: [
-    
+    "Fotos profissionais para divulgação",
     "Planilha de precificação",
     "Dicas de divulgação nas redes sociais",
     "Bônus surpresa exclusivos",
@@ -99,14 +95,8 @@ const PricingSection = () => {
               </div>
 
               <h3 className="text-2xl font-display font-extrabold text-primary-foreground mb-2 tracking-wide">PLANO COMPLETO</h3>
-              
-              {/* Product photos grid */}
-              <div className="grid grid-cols-2 gap-2 mb-4 rounded-2xl overflow-hidden">
-                <img src={mockupOvosColher} alt="Ovos de colher" className="w-full h-28 object-cover rounded-xl" />
-                <img src={mockupOvosTrufados} alt="Ovos trufados" className="w-full h-28 object-cover rounded-xl" />
-                <img src={mockupCardapio} alt="Cardápio digital" className="w-full h-28 object-cover rounded-xl" />
-                <img src={mockupFerrero} alt="Ferrero" className="w-full h-28 object-cover rounded-xl" />
-              </div>
+
+
 
               <div className="mb-6">
                 <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 97</span>
