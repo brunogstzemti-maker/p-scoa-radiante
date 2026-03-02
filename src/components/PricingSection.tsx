@@ -96,8 +96,8 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#" className="block text-center bg-gold text-primary-foreground font-display font-extrabold uppercase tracking-wider py-4 rounded-2xl hover:scale-105 transition-transform duration-300 shadow-gold">
-                QUERO ESTE PLANO
+              <a href="#" className="block text-center bg-foreground/10 text-foreground font-body font-semibold py-3.5 rounded-full hover:bg-foreground/15 transition-colors">
+                Quero este plano!
               </a>
             </div>
           </AnimateOnScroll>
@@ -161,8 +161,8 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#" className="block text-center bg-primary-foreground text-gold-dark font-display font-extrabold uppercase tracking-wider py-5 rounded-2xl hover:scale-105 transition-transform duration-300 shadow-lg">
-                QUERO APROVEITAR O DESCONTO
+              <a href="#" className="block text-center bg-primary-foreground text-gold-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+                SIM, QUERO APROVEITAR! 🐣
               </a>
             </div>
           </AnimateOnScroll>
