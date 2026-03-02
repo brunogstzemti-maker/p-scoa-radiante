@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const FinalCTASection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-pink">
       <div className="container mx-auto px-4 max-w-3xl">
         <AnimateOnScroll>
           <div className="bg-gradient-gold rounded-[40px] p-8 md:p-14 text-center shadow-gold">

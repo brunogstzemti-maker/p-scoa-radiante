@@ -24,7 +24,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section className="py-20 bg-gradient-pink">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
           <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground text-center mb-4 tracking-wide">
