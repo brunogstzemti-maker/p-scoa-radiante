@@ -96,7 +96,7 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#" className="block text-center bg-foreground/10 text-foreground font-body font-semibold py-3.5 rounded-full hover:bg-foreground/15 transition-colors">
+              <a href="#" className="block text-center bg-gradient-btn text-primary-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform shadow-btn">
                 Quero este plano!
               </a>
             </div>
@@ -161,7 +161,7 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#" className="block text-center bg-primary-foreground text-gold-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+              <a href="#" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
                 SIM, QUERO APROVEITAR! 🐣
               </a>
             </div>

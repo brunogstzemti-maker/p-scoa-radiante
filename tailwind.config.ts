@@ -62,6 +62,11 @@ export default {
           dark: "hsl(var(--pink-dark))",
         },
         rose: "hsl(var(--rose))",
+        btn: {
+          DEFAULT: "hsl(var(--btn))",
+          light: "hsl(var(--btn-light))",
+          dark: "hsl(var(--btn-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
