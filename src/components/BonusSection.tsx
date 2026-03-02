@@ -78,7 +78,7 @@ const BonusSection = () => {
             <AnimateOnScroll key={item.title} delay={i * 80}>
               <div className="glass-gold rounded-2xl p-5 hover:shadow-gold transition-shadow overflow-hidden">
                 <img src={item.img} alt={item.title} className="w-full h-40 object-cover rounded-xl mb-4" loading="lazy" />
-                <p className="font-display font-extrabold text-foreground text-base mb-2 tracking-wide">🎁 {item.title}</p>
+                <p className="font-display font-extrabold text-foreground text-base mb-2 tracking-wide">{item.title}</p>
                 <p className="font-body font-normal text-foreground/70 text-sm leading-relaxed">{item.desc}</p>
               </div>
             </AnimateOnScroll>
@@ -88,7 +88,7 @@ const BonusSection = () => {
         <AnimateOnScroll delay={600}>
           <div className="text-center mt-12">
             <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-12 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
-              SIM, QUERO O PLANO COMPLETO! 🐣
+              SIM, QUERO O PLANO COMPLETO!
             </a>
           </div>
         </AnimateOnScroll>

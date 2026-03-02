@@ -25,7 +25,7 @@ const SocialMediaSection = () => {
         <div className="mb-12">
           <AnimateOnScroll>
             <h3 className="text-2xl font-display font-extrabold text-foreground text-center mb-6 tracking-wide">
-              📸 POSTS PARA FEED
+              POSTS PARA FEED
             </h3>
           </AnimateOnScroll>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6">
@@ -42,7 +42,7 @@ const SocialMediaSection = () => {
         <div>
           <AnimateOnScroll>
             <h3 className="text-2xl font-display font-extrabold text-foreground text-center mb-6 tracking-wide">
-              📱 STORIES PRONTOS
+              STORIES PRONTOS
             </h3>
           </AnimateOnScroll>
           <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 mb-8">

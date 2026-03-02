@@ -121,7 +121,7 @@ const PricingSection = () => {
               </div>
 
               <div className="flex-1 space-y-1.5 mb-6">
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-2">✔ Cardápio:</p>
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-2">Cardápio:</p>
                 {completePlan.cardapio.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
@@ -136,7 +136,7 @@ const PricingSection = () => {
                   </div>
                 ))}
                 <div className="pt-3" />
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">🎁 Artes para embalagens:</p>
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Artes para embalagens:</p>
                 {completePlan.embalagens.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
@@ -144,7 +144,7 @@ const PricingSection = () => {
                   </div>
                 ))}
                 <div className="pt-3" />
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">📋 Materiais extras:</p>
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Materiais extras:</p>
                 {completePlan.materiaisExtras.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
@@ -152,7 +152,7 @@ const PricingSection = () => {
                   </div>
                 ))}
                 <div className="pt-3" />
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">🎉 Bônus especiais:</p>
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Bônus especiais:</p>
                 {completePlan.bonus.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
@@ -162,7 +162,7 @@ const PricingSection = () => {
               </div>
 
               <a href="#" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
-                EU QUERO VENDER MAIS NESTA PÁSCOA! 🐣
+                EU QUERO VENDER MAIS NESTA PÁSCOA!
               </a>
             </div>
           </AnimateOnScroll>
