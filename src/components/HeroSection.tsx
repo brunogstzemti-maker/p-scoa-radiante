@@ -39,8 +39,8 @@ const HeroSection = () => {
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={400}>
-              <a href="#planos" className="inline-block bg-gradient-gold text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-gold hover:scale-105 transition-transform duration-300">
-                Quero meu cardápio! 🐣
+              <a href="#planos" className="inline-block bg-gold text-primary-foreground font-display font-extrabold text-base uppercase tracking-wider px-12 py-5 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300">
+                QUERO APROVEITAR O DESCONTO
               </a>
             </AnimateOnScroll>
           </div>
