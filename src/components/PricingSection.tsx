@@ -29,7 +29,7 @@ const completePlan = {
     "Dicas de precificação para lucrar",
   ],
   bonus: [
-    "Lista de fornecedores de ingredientes",
+    
     "Planilha de precificação",
     "Dicas de divulgação nas redes sociais",
     "Bônus surpresa exclusivos",
