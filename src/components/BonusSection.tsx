@@ -1,13 +1,20 @@
 import AnimateOnScroll from "./AnimateOnScroll";
-import bonusImg from "@/assets/bonus-section.jpg";
+import bonusFotos from "@/assets/bonus-fotos.png";
+import bonusFotosDrive from "@/assets/bonus-fotos-drive.png";
+import bonusMoldura from "@/assets/bonus-moldura.png";
+import bonusPlanilha from "@/assets/bonus-planilha.png";
+import bonusLinkbio from "@/assets/bonus-linkbio.png";
+import bonusPlanner from "@/assets/bonus-planner.png";
+import bonusPrompts from "@/assets/bonus-prompts.png";
 
 const bonusItems = [
-  { title: "Prompts para fotos realistas", desc: "Textos prontos para gerar imagens profissionais e realistas dos seus produtos, mesmo sem estúdio." },
-  { title: "Pacote de fotos livres de direitos autorais", desc: "Imagens selecionadas para você divulgar sem medo e com aparência profissional." },
-  { title: "Molduras para stories", desc: "Layouts que deixam seus stories mais bonitos, organizados e com identidade visual." },
-  { title: "Planilha de Precificação", desc: "Ferramenta prática para calcular preços corretamente e garantir lucro em cada venda." },
-  { title: "Site para Link da Bio", desc: "Página simples e profissional para centralizar seus links e facilitar os pedidos." },
-  { title: "Planner financeiro", desc: "Modelo prático para controle financeiro e planejamento do negócio." },
+  { title: "Prompts para fotos realistas", desc: "Textos prontos para gerar imagens profissionais e realistas dos seus produtos.", img: bonusPrompts },
+  { title: "Pacote de fotos livres de direitos autorais", desc: "Imagens selecionadas para divulgar sem medo e com aparência profissional.", img: bonusFotos },
+  { title: "Fotos para Google Drive", desc: "Acesso a fotos exclusivas via Drive para usar quando quiser.", img: bonusFotosDrive },
+  { title: "Molduras para stories", desc: "Layouts que deixam seus stories mais bonitos e organizados.", img: bonusMoldura },
+  { title: "Planilha de Precificação", desc: "Ferramenta prática para calcular preços e garantir lucro.", img: bonusPlanilha },
+  { title: "Site para Link da Bio", desc: "Página profissional para centralizar seus links e facilitar pedidos.", img: bonusLinkbio },
+  { title: "Planner financeiro", desc: "Modelo prático para controle financeiro do negócio.", img: bonusPlanner },
 ];
 
 const completeItems = [
@@ -66,23 +73,17 @@ const BonusSection = () => {
           </div>
         </AnimateOnScroll>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {bonusItems.map((item, i) => (
             <AnimateOnScroll key={item.title} delay={i * 80}>
-              <div className="glass-gold rounded-2xl p-6 hover:shadow-gold transition-shadow">
+              <div className="glass-gold rounded-2xl p-5 hover:shadow-gold transition-shadow overflow-hidden">
+                <img src={item.img} alt={item.title} className="w-full h-40 object-cover rounded-xl mb-4" loading="lazy" />
                 <p className="font-display font-extrabold text-foreground text-base mb-2 tracking-wide">🎁 {item.title}</p>
                 <p className="font-body font-normal text-foreground/70 text-sm leading-relaxed">{item.desc}</p>
               </div>
             </AnimateOnScroll>
           ))}
         </div>
-
-        <AnimateOnScroll delay={500}>
-          <div className="relative max-w-sm mx-auto">
-            <div className="absolute inset-0 bg-gradient-gold rounded-[40px] rotate-2 scale-105 opacity-20" />
-            <img src={bonusImg} alt="Bônus exclusivos de Páscoa" className="relative rounded-[40px] shadow-gold w-full" loading="lazy" />
-          </div>
-        </AnimateOnScroll>
 
         <AnimateOnScroll delay={600}>
           <div className="text-center mt-12">
