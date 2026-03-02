@@ -15,10 +15,10 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
             <AnimateOnScroll delay={100}>
-              <p className="text-muted-foreground font-body font-medium text-lg mb-2">Cardápio editável</p>
+              <p className="text-muted-foreground font-body font-medium text-lg mb-2">A Páscoa está chegando...</p>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-extrabold text-foreground leading-[0.95] mb-6 tracking-wide">
-                PÁSCOA<br />
-                <span className="text-gradient-gold">2026</span>
+                ACELERE SUAS VENDAS<br />
+                <span className="text-gradient-gold">COM O NOSSO</span>
               </h1>
             </AnimateOnScroll>
 
