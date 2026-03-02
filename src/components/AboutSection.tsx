@@ -42,29 +42,6 @@ const AboutSection = () => {
           </AnimateOnScroll>
         </div>
 
-        {/* WhatsApp Community */}
-        <AnimateOnScroll delay={300}>
-          <div className="flex flex-col md:flex-row items-center gap-8 bg-card rounded-[32px] border border-border p-8">
-            <img
-              src={mockupWhatsapp}
-              alt="Comunidade Doce Criative no WhatsApp"
-              className="w-56 md:w-64 rounded-2xl shadow-lg"
-              loading="lazy"
-            />
-            <div className="text-center md:text-left">
-              <div className="flex items-center gap-2 justify-center md:justify-start mb-3">
-                <img src={whatsappIcon} alt="WhatsApp" className="w-8 h-8" loading="lazy" />
-                <h3 className="font-display font-extrabold text-xl text-foreground tracking-wide">COMUNIDADE EXCLUSIVA</h3>
-              </div>
-              <p className="font-body font-normal text-foreground/80 leading-relaxed mb-4">
-                No plano completo, você recebe suporte individual via WhatsApp e acesso à nossa comunidade exclusiva de confeiteiras com dicas, bônus e muito mais!
-              </p>
-              <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold px-8 py-3 rounded-full shadow-btn hover:scale-105 transition-transform duration-300 text-sm">
-                QUERO FAZER PARTE!
-              </a>
-            </div>
-          </div>
-        </AnimateOnScroll>
       </div>
     </section>
   );
