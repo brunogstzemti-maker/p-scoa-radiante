@@ -1,66 +1,26 @@
 import AnimateOnScroll from "./AnimateOnScroll";
+import bonusPlanilha from "@/assets/bonus-planilha.png";
+import bonusPlanner from "@/assets/bonus-planner.png";
+import bonusPrompts from "@/assets/bonus-prompts.png";
 import bonusFotos from "@/assets/bonus-fotos.png";
 import bonusFotosDrive from "@/assets/bonus-fotos-drive.png";
 import bonusMoldura from "@/assets/bonus-moldura.png";
-import bonusPlanilha from "@/assets/bonus-planilha.png";
 import bonusLinkbio from "@/assets/bonus-linkbio.png";
-import bonusPlanner from "@/assets/bonus-planner.png";
-import bonusPrompts from "@/assets/bonus-prompts.png";
 
 const bonusItems = [
-  { title: "Prompts para fotos realistas", desc: "Textos prontos para gerar imagens profissionais e realistas dos seus produtos.", img: bonusPrompts },
-  { title: "Pacote de fotos livres de direitos autorais", desc: "Imagens selecionadas para divulgar sem medo e com aparência profissional.", img: bonusFotos },
-  { title: "Fotos para Google Drive", desc: "Acesso a fotos exclusivas via Drive para usar quando quiser.", img: bonusFotosDrive },
-  { title: "Molduras para stories", desc: "Layouts que deixam seus stories mais bonitos e organizados.", img: bonusMoldura },
-  { title: "Planilha de Precificação", desc: "Ferramenta prática para calcular preços e garantir lucro.", img: bonusPlanilha },
-  { title: "Site para Link da Bio", desc: "Página profissional para centralizar seus links e facilitar pedidos.", img: bonusLinkbio },
+  { title: "Dicas de apresentação e embalagem", desc: "Aprenda a embalar seus ovos de forma profissional e encantadora.", img: bonusPrompts },
+  { title: "Fotos profissionais para divulgação", desc: "Imagens de alta qualidade para usar nas suas redes sociais.", img: bonusFotos },
+  { title: "Fotos extras no Google Drive", desc: "Acesso a fotos exclusivas via Drive para usar quando quiser.", img: bonusFotosDrive },
+  { title: "Dicas para stories e redes sociais", desc: "Estratégias para divulgar suas receitas e atrair mais clientes.", img: bonusMoldura },
+  { title: "Planilha de Precificação", desc: "Ferramenta prática para calcular preços e garantir lucro em cada ovo.", img: bonusPlanilha },
+  { title: "Lista de fornecedores", desc: "Fornecedores selecionados para você comprar ingredientes com melhor custo.", img: bonusLinkbio },
   { title: "Planner financeiro", desc: "Modelo prático para controle financeiro do negócio.", img: bonusPlanner },
-];
-
-const completeItems = [
-  { name: "+40 Posts para Instagram", oldPrice: "R$ 19,90" },
-  { name: "+50 Stories para Instagram", oldPrice: "R$ 19,90" },
-  { name: "Tags retangulares", oldPrice: "R$ 9,90" },
-  { name: "Cartões de agradecimento", oldPrice: "R$ 9,90" },
-  { name: "12 Artes Tubolata", oldPrice: "R$ 7,90" },
-  { name: "Cartões para biscoito", oldPrice: "R$ 5,90" },
-  { name: "Artes para Card Blister", oldPrice: "R$ 5,90" },
-  { name: "Artes para Barras de Chocolate", oldPrice: "R$ 5,90" },
-  { name: 'TAGs "Ovo Frito"', oldPrice: "R$ 5,90" },
-  { name: "Bloco de pedidos", oldPrice: "R$ 5,90" },
-  { name: "Tirinhas para Biscoitos", oldPrice: "R$ 5,90" },
 ];
 
 const BonusSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-5xl">
-        {/* Complete plan benefits */}
-        <AnimateOnScroll>
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground mb-2 tracking-wide">
-              VEJA TUDO QUE VOCÊ VAI <span className="text-gradient-gold">RECEBER</span>
-            </h2>
-            <p className="font-body font-medium text-muted-foreground text-lg">No Plano Completo de R$ 27,90:</p>
-          </div>
-        </AnimateOnScroll>
-
-        {/* Included items grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-16">
-          {completeItems.map((item, i) => (
-            <AnimateOnScroll key={item.name} delay={i * 60}>
-              <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-5 border border-border text-center hover:shadow-gold transition-shadow">
-                <p className="font-display font-extrabold text-foreground text-base mb-1 tracking-wide">{item.name}</p>
-                <p className="font-body font-normal text-muted-foreground text-sm">
-                  De: <span className="line-through">{item.oldPrice}</span>{" "}
-                  <span className="text-gold font-bold">GRATUITO</span>
-                </p>
-              </div>
-            </AnimateOnScroll>
-          ))}
-        </div>
-
-        {/* Bonus section */}
         <AnimateOnScroll>
           <div className="text-center mb-10">
             <h3 className="text-2xl md:text-4xl font-display font-extrabold text-foreground tracking-wide">

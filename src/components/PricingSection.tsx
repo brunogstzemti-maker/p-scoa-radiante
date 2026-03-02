@@ -3,52 +3,35 @@ import { Check, X, Star } from "lucide-react";
 
 const basicPlan = {
   items: [
-    "Cardápio Editável de Páscoa",
-    "Modelo: Rosa e Dourado",
-    "Modelo: Cristão",
-    "Aulas ensinando como editar o material",
+    "50 Receitas de Ovos de Páscoa",
+    "Receitas clássicas e tradicionais",
+    "Instruções passo a passo",
   ],
   notIncluded: [
-    
-    "Não inclui Posts e Stories editáveis",
-    "Não inclui Artes para Embalagens",
-    "Não inclui Bloco de pedidos",
-    "Não inclui Presentes Extras",
+    "Não inclui receitas gourmet",
+    "Não inclui receitas fitness",
+    "Não inclui dicas de precificação",
+    "Não inclui bônus extras",
   ],
 };
 
 const completePlan = {
-  cardapio: [
-    "Cardápio Editável de Páscoa",
-    "Modelo: Rosa e Dourado",
-    "Modelo: Cristão",
-    "Modelo: Laranja e Verde",
+  receitas: [
+    "100 Receitas de Ovos de Páscoa",
+    "Receitas clássicas e tradicionais",
+    "Receitas gourmet e premium",
+    "Receitas fitness e saudáveis",
   ],
   extras: [
-    "Cardápios versão FEED",
-    "Aulas de edição",
-    
-    "Posts para Instagram",
-    "Stories prontos para divulgação",
+    "Instruções passo a passo detalhadas",
+    "Fotos ilustrativas de cada receita",
+    "Dicas de apresentação e embalagem",
+    "Dicas de precificação para lucrar",
   ],
-  embalagens: [
-    "Cartões de agradecimento",
-    "Tags",
-    "Cintas para tubolata",
-    "Cartões para biscoitos",
-    "Cartões para barra de chocolate",
-    'Cartão "Ovo Frito"',
-    "Tirinhas para biscoitos",
-    "Card blister",
-    "Artes lapela",
-  ],
-  materiaisExtras: ["Bloco de pedidos"],
   bonus: [
-    "Prompts para fotos realistas",
-    "Pacote de fotos sem direitos autorais",
-    "Molduras para stories",
-    "Planilha de precificação para confeiteiras",
-    "Site para link da bio",
+    "Lista de fornecedores de ingredientes",
+    "Planilha de precificação",
+    "Dicas de divulgação nas redes sociais",
     "Bônus surpresa exclusivos",
   ],
 };
@@ -105,7 +88,6 @@ const PricingSection = () => {
           {/* Complete Plan */}
           <AnimateOnScroll delay={200}>
             <div className="relative bg-gradient-gold rounded-[32px] p-8 flex flex-col h-full shadow-gold">
-              {/* Badge */}
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                 <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
                   <Star className="w-3.5 h-3.5 fill-current" /> MAIS VENDIDO
@@ -121,31 +103,16 @@ const PricingSection = () => {
               </div>
 
               <div className="flex-1 space-y-1.5 mb-6">
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-2">Cardápio:</p>
-                {completePlan.cardapio.map((item) => (
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-2">Receitas:</p>
+                {completePlan.receitas.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
                     <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
                 <div className="pt-3" />
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Extras inclusos:</p>
                 {completePlan.extras.map((item) => (
-                  <div key={item} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
-                  </div>
-                ))}
-                <div className="pt-3" />
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Artes para embalagens:</p>
-                {completePlan.embalagens.map((item) => (
-                  <div key={item} className="flex items-start gap-2">
-                    <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
-                  </div>
-                ))}
-                <div className="pt-3" />
-                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Materiais extras:</p>
-                {completePlan.materiaisExtras.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
                     <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>

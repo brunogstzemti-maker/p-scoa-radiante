@@ -4,20 +4,24 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "Como vou acessar?",
-    a: "Após a confirmação do pagamento, você receberá no e-mail da compra um link para acessar todo o material diretamente na plataforma. O acesso pode ser feito tanto pelo computador quanto pelo celular, de onde você estiver.",
+    q: "Como vou acessar o e-book?",
+    a: "Após a confirmação do pagamento, você receberá no e-mail da compra um link para acessar o e-book em PDF. O acesso pode ser feito tanto pelo computador quanto pelo celular, de onde você estiver.",
   },
   {
     q: "Em quanto tempo eu irei receber?",
-    a: "Imediatamente. Logo após a aprovação do seu pagamento, você irá receber no seu e-mail de compra os seus dados de login e então poderá começar imediatamente.",
+    a: "Imediatamente. Logo após a aprovação do seu pagamento, você irá receber no seu e-mail de compra o link para download do e-book.",
   },
   {
     q: "Terei acesso ao produto por quanto tempo?",
-    a: "O acesso é vitalício! Você poderá utilizar o material sempre que precisar, sem limite de tempo.",
+    a: "O acesso é vitalício! Você poderá baixar e utilizar o e-book sempre que precisar, sem limite de tempo.",
   },
   {
-    q: "Terei suporte?",
-    a: "Sim, ao adquirir o pacote completo você terá suporte! Dentro da plataforma, disponibilizamos o link do WhatsApp no módulo de suporte, onde você poderá enviar todas as suas dúvidas.",
+    q: "As receitas são difíceis de fazer?",
+    a: "Não! Todas as receitas possuem instruções passo a passo, com ingredientes acessíveis. São receitas pensadas para confeiteiras de todos os níveis.",
+  },
+  {
+    q: "Posso vender os ovos feitos com essas receitas?",
+    a: "Sim! As receitas são suas para usar como quiser. Você pode produzir e vender todos os ovos que fizer com as nossas receitas.",
   },
 ];
 
