@@ -35,10 +35,6 @@ const HeroSection = () => {
 
 
             <AnimateOnScroll delay={400}>
-              <div className="flex items-center gap-3 justify-center lg:justify-start mb-6">
-                <img src={canvaIcon} alt="Canva" className="w-10 h-10 rounded-full" loading="lazy" />
-                <span className="font-body text-sm text-foreground/70">Edite facilmente no Canva gratuito</span>
-              </div>
               <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
                 QUERO MEU CARDÁPIO! 🐣
               </a>
