@@ -9,7 +9,7 @@ const basicPlan = {
     "Aulas ensinando como editar o material",
   ],
   notIncluded: [
-    "Não inclui suporte individual",
+    
     "Não inclui Posts e Stories editáveis",
     "Não inclui Artes para Embalagens",
     "Não inclui Bloco de pedidos",
@@ -27,7 +27,7 @@ const completePlan = {
   extras: [
     "Cardápios versão FEED",
     "Aulas de edição",
-    "Suporte individual no WhatsApp",
+    
     "Posts para Instagram",
     "Stories prontos para divulgação",
   ],
