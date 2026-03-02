@@ -7,7 +7,7 @@ import mockupNinhoNutella from "@/assets/mockup-ninho-nutella.png";
 import mockupMorango from "@/assets/mockup-morango.png";
 import mockupOvosColher from "@/assets/mockup-ovos-colher.png";
 import mockupOvosTrufados from "@/assets/mockup-ovos-trufados-2.png";
-import mockupSaboresEspeciais from "@/assets/mockup-sabores-especiais.png";
+
 
 const pages = [
   { img: mockupOvoTablete, alt: "Ovo Tablete" },
@@ -18,7 +18,7 @@ const pages = [
   { img: mockupMorango, alt: "Ovo Delícia de Morango" },
   { img: mockupOvosColher, alt: "Ovos de Colher" },
   { img: mockupOvosTrufados, alt: "Ovos Trufados" },
-  { img: mockupSaboresEspeciais, alt: "Sabores Especiais" },
+  
 ];
 
 const CardapioPreviewSection = () => {
