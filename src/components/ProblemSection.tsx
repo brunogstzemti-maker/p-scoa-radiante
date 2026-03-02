@@ -43,7 +43,7 @@ const ProblemSection = () => {
                 "Apresentação amadora"
               ].map((item) => (
                 <div key={item} className="bg-destructive/10 text-destructive px-6 py-3 rounded-full font-body font-medium text-lg">
-                  ❌ {item}
+                  {item}
                 </div>
               ))}
             </div>
@@ -56,14 +56,14 @@ const ProblemSection = () => {
               O problema não é falta de talento. Nem falta de produtos bons...
             </p>
             <p className="text-xl font-body font-semibold text-foreground mb-6">
-              👉 O problema é tentar dar conta de tudo sozinha, sem uma estrutura pronta.
+              O problema é tentar dar conta de tudo sozinha, sem uma estrutura pronta.
             </p>
             <p className="text-foreground/70 font-body font-normal leading-relaxed mb-8">
               A maioria das confeiteiras perde vendas porque gasta tempo demais criando artes, ajustando detalhes e tentando parecer profissional, quando poderia estar focada no que realmente importa: <strong className="font-semibold">produzir, vender e lucrar.</strong>
             </p>
             <div className="flex justify-center gap-6 text-2xl font-display font-extrabold tracking-wide">
-              <span className="text-destructive">➕ BAGUNÇA</span>
-              <span className="text-gold-dark">➖ VENDAS</span>
+              <span className="text-destructive">+ BAGUNÇA</span>
+              <span className="text-gold-dark">- VENDAS</span>
             </div>
           </div>
         </AnimateOnScroll>

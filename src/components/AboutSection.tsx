@@ -36,7 +36,7 @@ const AboutSection = () => {
                 Confeiteira por muitos anos e apaixonada por tudo o que envolve doces. Vivi na prática a rotina intensa da confeitaria: produção puxada, datas comemorativas corridas e a necessidade de vender bem, mesmo com pouco tempo.
               </p>
               <p className="font-body font-normal text-foreground/80 leading-relaxed mt-4">
-                Este cardápio não foi criado apenas por uma designer, mas por alguém que já esteve no seu lugar 💝
+                Este cardápio não foi criado apenas por uma designer, mas por alguém que já esteve no seu lugar.
               </p>
             </div>
           </AnimateOnScroll>
@@ -60,7 +60,7 @@ const AboutSection = () => {
                 No plano completo, você recebe suporte individual via WhatsApp e acesso à nossa comunidade exclusiva de confeiteiras com dicas, bônus e muito mais!
               </p>
               <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold px-8 py-3 rounded-full shadow-btn hover:scale-105 transition-transform duration-300 text-sm">
-                QUERO FAZER PARTE! 💬
+                QUERO FAZER PARTE!
               </a>
             </div>
           </div>

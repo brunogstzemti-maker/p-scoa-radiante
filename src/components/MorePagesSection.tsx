@@ -58,7 +58,7 @@ const MorePagesSection = () => {
         <AnimateOnScroll delay={400}>
           <div className="text-center mt-12">
             <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-12 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
-              QUERO TODAS ESSAS PÁGINAS! 🐣
+              QUERO TODAS ESSAS PÁGINAS!
             </a>
           </div>
         </AnimateOnScroll>
