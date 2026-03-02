@@ -20,7 +20,7 @@ const FinalCTASection = () => {
               <p className="text-6xl md:text-7xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
               <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 6x R$ 5,24</p>
             </div>
-            <a href="#" className="inline-block bg-primary-foreground text-btn-dark font-body font-bold text-base px-12 py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-gold">
+            <a href="#planos" className="inline-block bg-primary-foreground text-btn-dark font-body font-bold text-base px-12 py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg animate-pulse-gold">
               EU QUERO LUCRAR NESTA PÁSCOA!
             </a>
             <p className="mt-6 text-primary-foreground/70 font-body font-normal text-sm">
