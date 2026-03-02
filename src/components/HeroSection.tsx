@@ -33,15 +33,6 @@ const HeroSection = () => {
               </p>
             </AnimateOnScroll>
 
-            <AnimateOnScroll delay={300}>
-              <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8">
-                {["Acesso imediato e vitalício", "Design profissional", "100% editável no Canva gratuito", "Fácil de usar"].map((item) => (
-                  <span key={item} className="glass-pink px-4 py-2 rounded-full text-sm font-body font-medium text-foreground">
-                    ✨ {item}
-                  </span>
-                ))}
-              </div>
-            </AnimateOnScroll>
 
             <AnimateOnScroll delay={400}>
               <div className="flex items-center gap-3 justify-center lg:justify-start mb-6">
