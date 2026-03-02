@@ -27,7 +27,7 @@ const HeroSection = () => {
 
             <AnimateOnScroll delay={200}>
               <p className="text-lg md:text-xl text-foreground/80 font-body font-normal leading-relaxed mb-8 max-w-lg">
-                Impulsione suas encomendas de Páscoa com um cardápio que{" "}
+                <span className="underline decoration-primary decoration-[3px] underline-offset-4">Impulsione suas encomendas de Páscoa</span> com um cardápio que{" "}
                 <strong className="text-foreground font-semibold">encanta e vende por você.</strong>
               </p>
             </AnimateOnScroll>
