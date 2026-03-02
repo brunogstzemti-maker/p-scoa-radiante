@@ -1,3 +1,4 @@
+import CountdownBar from "@/components/CountdownBar";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
 import ForWhoSection from "@/components/ForWhoSection";
@@ -13,6 +14,7 @@ import FooterSection from "@/components/FooterSection";
 const Index = () => {
   return (
     <main>
+      <CountdownBar />
       <HeroSection />
       <ProblemSection />
       <ForWhoSection />
