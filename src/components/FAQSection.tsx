@@ -28,8 +28,8 @@ const FAQSection = () => {
     <section className="py-20 bg-gradient-pink">
       <div className="container mx-auto px-4 max-w-3xl">
         <AnimateOnScroll>
-          <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground text-center mb-12">
-            Dúvidas frequentes
+          <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground text-center mb-12 tracking-wide">
+            DÚVIDAS FREQUENTES
           </h2>
         </AnimateOnScroll>
 
@@ -41,11 +41,11 @@ const FAQSection = () => {
                   onClick={() => setOpen(open === i ? null : i)}
                   className="w-full flex items-center justify-between p-5 text-left"
                 >
-                  <span className="font-display font-bold text-foreground text-lg pr-4">{faq.q}</span>
+                  <span className="font-display font-extrabold text-foreground text-lg pr-4 tracking-wide">{faq.q}</span>
                   <ChevronDown className={`w-5 h-5 text-gold flex-shrink-0 transition-transform duration-300 ${open === i ? "rotate-180" : ""}`} />
                 </button>
                 <div className={`overflow-hidden transition-all duration-300 ${open === i ? "max-h-60 pb-5 px-5" : "max-h-0"}`}>
-                  <p className="font-body text-foreground/70 leading-relaxed">{faq.a}</p>
+                  <p className="font-body font-normal text-foreground/70 leading-relaxed">{faq.a}</p>
                 </div>
               </div>
             </AnimateOnScroll>

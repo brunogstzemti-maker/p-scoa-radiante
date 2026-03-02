@@ -6,8 +6,8 @@ const AboutSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
-          <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground text-center mb-12">
-            Siga-me nas redes sociais
+          <h2 className="text-3xl md:text-4xl font-display font-extrabold text-foreground text-center mb-12 tracking-wide">
+            SIGA-ME NAS REDES SOCIAIS
           </h2>
         </AnimateOnScroll>
 
@@ -26,13 +26,13 @@ const AboutSection = () => {
 
           <AnimateOnScroll delay={200}>
             <div className="text-center md:text-left">
-              <p className="font-body text-foreground/80 leading-relaxed">
+              <p className="font-body font-normal text-foreground/80 leading-relaxed">
                 Confeiteira por muitos anos e apaixonada por tudo o que envolve doces. Vivi na prática a rotina intensa da confeitaria: produção puxada, datas comemorativas corridas e a necessidade de vender bem, mesmo com pouco tempo.
               </p>
-              <p className="font-body text-foreground/80 leading-relaxed mt-4">
+              <p className="font-body font-normal text-foreground/80 leading-relaxed mt-4">
                 Sempre acreditei que um doce bem feito merece ser bem apresentado. Foi dessa vivência real que nasceu a ideia de criar cardápios prontos, pensados por quem já foi confeiteira e sabe exatamente o que funciona na Páscoa.
               </p>
-              <p className="font-body text-foreground/80 leading-relaxed mt-4">
+              <p className="font-body font-normal text-foreground/80 leading-relaxed mt-4">
                 Este cardápio não foi criado apenas por uma designer, mas por alguém que já esteve no seu lugar 💝
               </p>
             </div>

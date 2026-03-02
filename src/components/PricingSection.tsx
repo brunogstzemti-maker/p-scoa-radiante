@@ -59,9 +59,9 @@ const PricingSection = () => {
       <div className="container mx-auto px-4 max-w-6xl">
         <AnimateOnScroll>
           <div className="text-center mb-4">
-            <p className="font-body text-muted-foreground text-lg">Preparei 2 PLANOS pra você.</p>
-            <h2 className="text-3xl md:text-5xl font-display font-bold text-foreground mt-2">
-              Escolha o ideal para<br />o seu negócio:
+            <p className="font-body font-medium text-muted-foreground text-lg">Preparei 2 PLANOS pra você.</p>
+            <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground mt-2 tracking-wide">
+              ESCOLHA O IDEAL PARA<br />O SEU NEGÓCIO:
             </h2>
           </div>
         </AnimateOnScroll>
@@ -70,18 +70,18 @@ const PricingSection = () => {
           {/* Basic Plan */}
           <AnimateOnScroll delay={100}>
             <div className="bg-card rounded-[32px] border border-border p-8 flex flex-col h-full">
-              <h3 className="text-2xl font-display font-bold text-foreground mb-2">Plano Básico</h3>
+              <h3 className="text-2xl font-display font-extrabold text-foreground mb-2 tracking-wide">PLANO BÁSICO</h3>
               <div className="mb-6">
                 <span className="text-muted-foreground font-body line-through text-lg">R$ 27,90</span>
-                <span className="text-foreground font-body text-sm"> por apenas</span>
-                <p className="text-5xl font-display font-bold text-gradient-gold">R$ 10,00</p>
+                <span className="text-foreground font-body font-normal text-sm"> por apenas</span>
+                <p className="text-5xl font-display font-extrabold text-gradient-gold tracking-wide">R$ 10,00</p>
               </div>
 
               <div className="flex-1 space-y-3 mb-6">
                 {basicPlan.items.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-foreground text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -91,13 +91,13 @@ const PricingSection = () => {
                 {basicPlan.notIncluded.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <X className="w-4 h-4 text-muted-foreground/50 flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-muted-foreground text-xs">{item}</span>
+                    <span className="font-body font-normal text-muted-foreground text-xs">{item}</span>
                   </div>
                 ))}
               </div>
 
               <a href="#" className="block text-center bg-gradient-btn text-primary-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform shadow-btn">
-                Quero este plano!
+                QUERO ESTE PLANO!
               </a>
             </div>
           </AnimateOnScroll>
@@ -107,17 +107,17 @@ const PricingSection = () => {
             <div className="relative bg-gradient-gold rounded-[32px] p-8 flex flex-col h-full shadow-gold">
               {/* Badge */}
               <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5">
+                <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
                   <Star className="w-3.5 h-3.5 fill-current" /> MAIS VENDIDO
                 </div>
               </div>
 
-              <h3 className="text-2xl font-display font-bold text-primary-foreground mb-2">Plano Completo</h3>
+              <h3 className="text-2xl font-display font-extrabold text-primary-foreground mb-2 tracking-wide">PLANO COMPLETO</h3>
               <div className="mb-6">
                 <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 97</span>
-                <span className="text-primary-foreground font-body text-sm"> por apenas</span>
-                <p className="text-5xl font-display font-bold text-primary-foreground">R$ 27,90</p>
-                <p className="text-primary-foreground/80 font-body text-sm mt-1">Ou 6x R$ 5,24</p>
+                <span className="text-primary-foreground font-body font-normal text-sm"> por apenas</span>
+                <p className="text-5xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
+                <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 6x R$ 5,24</p>
               </div>
 
               <div className="flex-1 space-y-1.5 mb-6">
@@ -125,14 +125,14 @@ const PricingSection = () => {
                 {completePlan.cardapio.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-primary-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
                 <div className="pt-3" />
                 {completePlan.extras.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-primary-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
                 <div className="pt-3" />
@@ -140,7 +140,7 @@ const PricingSection = () => {
                 {completePlan.embalagens.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-primary-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
                 <div className="pt-3" />
@@ -148,7 +148,7 @@ const PricingSection = () => {
                 {completePlan.materiaisExtras.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-primary-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
                 <div className="pt-3" />
@@ -156,7 +156,7 @@ const PricingSection = () => {
                 {completePlan.bonus.map((item) => (
                   <div key={item} className="flex items-start gap-2">
                     <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
-                    <span className="font-body text-primary-foreground text-sm">{item}</span>
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
                   </div>
                 ))}
               </div>
