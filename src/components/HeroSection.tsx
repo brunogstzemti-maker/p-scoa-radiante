@@ -9,12 +9,6 @@ const HeroSection = () => {
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-gold-light rounded-full opacity-20 blur-3xl translate-y-1/3 -translate-x-1/4" />
 
       <div className="container mx-auto px-4 pt-8 pb-20 relative z-10">
-        {/* Top badge */}
-        <AnimateOnScroll className="flex justify-center mb-8">
-          <div className="bg-gradient-gold text-primary-foreground px-6 py-2 rounded-full font-body text-sm font-bold tracking-wider uppercase animate-pulse-gold">
-            ⏰ OFERTA POR TEMPO LIMITADO!
-          </div>
-        </AnimateOnScroll>
 
         <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
           {/* Left Content */}
