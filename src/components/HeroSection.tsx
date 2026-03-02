@@ -1,5 +1,6 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import trustBadges from "@/assets/trust-badges.png";
+import mockupHero from "@/assets/mockup-hero-cardapio.png";
 
 const HeroSection = () => {
   return (
@@ -31,6 +32,17 @@ const HeroSection = () => {
               </p>
             </AnimateOnScroll>
 
+
+            <AnimateOnScroll delay={300}>
+              <div className="relative mx-auto lg:mx-0 max-w-md mb-6">
+                <img 
+                  src={mockupHero} 
+                  alt="Mockup Cardápio de Páscoa 2026" 
+                  className="w-full mix-blend-multiply"
+                  loading="eager"
+                />
+              </div>
+            </AnimateOnScroll>
 
             <AnimateOnScroll delay={400}>
               <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
