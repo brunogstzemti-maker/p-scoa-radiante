@@ -1,8 +1,12 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import mockupCapa from "@/assets/mockup-capa.png";
+import mockupCapa2 from "@/assets/mockup-capa-2.png";
+import mockupCapaCristao from "@/assets/mockup-capa-cristao.png";
 import mockupInterna from "@/assets/mockup-interna.png";
 import mockupPagesRosa from "@/assets/mockup-pages-rosa.png";
 import mockupPages from "@/assets/mockup-cardapio-pages.png";
+import mockupMenuInterativo from "@/assets/mockup-menu-interativo.png";
+import mockupBemVinda from "@/assets/mockup-bem-vinda.png";
 
 const ShowcaseSection = () => {
   return (
@@ -19,21 +23,57 @@ const ShowcaseSection = () => {
           </div>
         </AnimateOnScroll>
 
-        {/* Capa + Interna side by side */}
+        {/* Capa versions side by side */}
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
           <AnimateOnScroll delay={100}>
             <img
               src={mockupCapa}
-              alt="Capa do cardápio de Páscoa 2026"
-              className="w-52 md:w-64 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300"
+              alt="Capa do cardápio - versão laranja"
+              className="w-48 md:w-56 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
           </AnimateOnScroll>
           <AnimateOnScroll delay={200}>
             <img
+              src={mockupCapa2}
+              alt="Capa do cardápio - versão dourada"
+              className="w-48 md:w-56 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={300}>
+            <img
+              src={mockupCapaCristao}
+              alt="Capa do cardápio - versão cristã"
+              className="w-48 md:w-56 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </AnimateOnScroll>
+        </div>
+
+        {/* Internal pages examples */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
+          <AnimateOnScroll delay={150}>
+            <img
+              src={mockupMenuInterativo}
+              alt="Menu interativo do cardápio"
+              className="w-44 md:w-52 rounded-2xl shadow-pink hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={250}>
+            <img
+              src={mockupBemVinda}
+              alt="Página de boas-vindas do cardápio"
+              className="w-44 md:w-52 rounded-2xl shadow-pink hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
+          </AnimateOnScroll>
+          <AnimateOnScroll delay={350}>
+            <img
               src={mockupInterna}
-              alt="Página interna do cardápio - Ovo Tablete"
-              className="w-52 md:w-64 rounded-2xl shadow-gold hover:scale-105 transition-transform duration-300"
+              alt="Página interna do cardápio"
+              className="w-44 md:w-52 rounded-2xl shadow-pink hover:scale-105 transition-transform duration-300"
               loading="lazy"
             />
           </AnimateOnScroll>
@@ -64,8 +104,8 @@ const ShowcaseSection = () => {
           <div className="mt-12 text-center">
             <div className="inline-block glass-pink rounded-[24px] px-8 py-6">
               <p className="font-display font-extrabold text-xl text-foreground mb-1 tracking-wide">CARDÁPIO EDITÁVEL:</p>
-              <p className="font-body font-medium text-foreground/80">Rosa e Dourado | Cristão</p>
-              <p className="text-gradient-gold font-display font-extrabold text-3xl mt-2 tracking-wide">50 PÁGINAS</p>
+              <p className="font-body font-medium text-foreground/80">Rosa e Dourado | Cristão | Laranja e Verde</p>
+              <p className="text-gradient-gold font-display font-extrabold text-3xl mt-2 tracking-wide">50+ PÁGINAS</p>
             </div>
           </div>
         </AnimateOnScroll>

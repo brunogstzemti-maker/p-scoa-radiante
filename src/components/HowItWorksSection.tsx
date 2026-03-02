@@ -1,9 +1,25 @@
 import AnimateOnScroll from "./AnimateOnScroll";
+import badge1 from "@/assets/badge-1.png";
+import badge14 from "@/assets/badge-14.png";
+import badge12 from "@/assets/badge-12.png";
+import canvaIcon from "@/assets/canva-icon.png";
 
 const steps = [
-  { emoji: "1️⃣", title: "Acesse pelo Canva", desc: "(fácil e gratuito)" },
-  { emoji: "2️⃣", title: "Altere produtos, preços, fotos e textos", desc: "" },
-  { emoji: "3️⃣", title: "Salve e envie rapidinho", desc: "para suas clientes." },
+  {
+    badge: badge1,
+    title: "Acesse pelo Canva",
+    desc: "(fácil e gratuito)",
+  },
+  {
+    badge: badge14,
+    title: "Altere produtos, preços, fotos e textos",
+    desc: "",
+  },
+  {
+    badge: badge12,
+    title: "Salve e envie rapidinho",
+    desc: "para suas clientes.",
+  },
 ];
 
 const HowItWorksSection = () => {
@@ -23,7 +39,7 @@ const HowItWorksSection = () => {
           {steps.map((step, i) => (
             <AnimateOnScroll key={i} delay={i * 150}>
               <div className="bg-background/80 backdrop-blur-sm rounded-[24px] p-8 text-center border border-border hover:shadow-gold transition-shadow duration-300">
-                <div className="text-4xl mb-4">{step.emoji}</div>
+                <img src={step.badge} alt={`Passo ${i + 1}`} className="w-16 h-16 mx-auto mb-4" loading="lazy" />
                 <p className="font-display font-extrabold text-lg text-foreground mb-1 tracking-wide">{step.title}</p>
                 {step.desc && <p className="font-body font-normal text-muted-foreground text-sm">{step.desc}</p>}
               </div>
@@ -32,9 +48,12 @@ const HowItWorksSection = () => {
         </div>
 
         <AnimateOnScroll delay={500}>
-          <p className="text-center mt-10 font-body font-normal text-foreground/70 text-lg">
-            Mesmo que você <strong className="font-semibold">não entenda nada de design!</strong>
-          </p>
+          <div className="flex items-center justify-center gap-3 mt-10">
+            <img src={canvaIcon} alt="Canva" className="w-8 h-8 rounded-full" loading="lazy" />
+            <p className="font-body font-normal text-foreground/70 text-lg">
+              Mesmo que você <strong className="font-semibold">não entenda nada de design!</strong>
+            </p>
+          </div>
         </AnimateOnScroll>
       </div>
     </section>

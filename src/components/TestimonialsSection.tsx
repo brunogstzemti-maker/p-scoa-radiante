@@ -3,9 +3,12 @@ import testimonial1 from "@/assets/testimonial-1.png";
 import testimonial2 from "@/assets/testimonial-2.png";
 import testimonial3 from "@/assets/testimonial-3.png";
 import testimonial4 from "@/assets/testimonial-4.png";
+import testimonial5 from "@/assets/testimonial-5.png";
+import testimonial6 from "@/assets/testimonial-6.png";
+import testimonial7 from "@/assets/testimonial-7.png";
 import starsImg from "@/assets/stars-rating.png";
 
-const testimonials = [testimonial1, testimonial2, testimonial3, testimonial4];
+const testimonials = [testimonial1, testimonial2, testimonial3, testimonial4, testimonial5, testimonial6, testimonial7];
 
 const TestimonialsSection = () => {
   return (
@@ -23,7 +26,7 @@ const TestimonialsSection = () => {
           </div>
         </AnimateOnScroll>
 
-        <div className="grid sm:grid-cols-2 gap-6 mt-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {testimonials.map((img, i) => (
             <AnimateOnScroll key={i} delay={i * 100}>
               <img
