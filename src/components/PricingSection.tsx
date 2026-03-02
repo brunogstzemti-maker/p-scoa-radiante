@@ -162,7 +162,7 @@ const PricingSection = () => {
               </div>
 
               <a href="#" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
-                EU QUERO VENDER MAIS NESTA PÁSCOA!
+                SIM, QUERO OFERTA PREMIUM!
               </a>
             </div>
           </AnimateOnScroll>
