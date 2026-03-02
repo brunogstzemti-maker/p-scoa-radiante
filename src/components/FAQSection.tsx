@@ -25,7 +25,7 @@ const FAQSection = () => {
   const [open, setOpen] = useState<number | null>(null);
 
   return (
-    <section className="py-20 bg-gradient-pink">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-3xl">
         <AnimateOnScroll>
           <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground text-center mb-12 tracking-wide">

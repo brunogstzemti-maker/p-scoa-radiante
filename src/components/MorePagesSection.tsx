@@ -29,7 +29,7 @@ const pages = [
 
 const MorePagesSection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-pink">
       <div className="container mx-auto px-4 max-w-6xl">
         <AnimateOnScroll>
           <div className="text-center mb-12">

@@ -33,7 +33,7 @@ const completeItems = [
 
 const BonusSection = () => {
   return (
-    <section className="py-20 bg-gradient-pink">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-5xl">
         {/* Complete plan benefits */}
         <AnimateOnScroll>

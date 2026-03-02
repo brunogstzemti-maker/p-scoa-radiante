@@ -11,7 +11,7 @@ const forWhoItems = [
 
 const ForWhoSection = () => {
   return (
-    <section className="py-20 bg-gradient-pink">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
           <div className="text-center mb-12">

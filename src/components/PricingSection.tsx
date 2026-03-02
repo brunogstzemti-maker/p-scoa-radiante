@@ -55,7 +55,7 @@ const completePlan = {
 
 const PricingSection = () => {
   return (
-    <section id="planos" className="py-20 bg-background">
+    <section id="planos" className="py-20 bg-gradient-pink">
       <div className="container mx-auto px-4 max-w-6xl">
         <AnimateOnScroll>
           <div className="text-center mb-4">

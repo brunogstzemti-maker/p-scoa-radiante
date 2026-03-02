@@ -6,7 +6,7 @@ import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const AboutSection = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-gradient-pink">
       <div className="container mx-auto px-4 max-w-5xl">
         <AnimateOnScroll>
           <div className="flex items-center justify-center gap-3 mb-12">
