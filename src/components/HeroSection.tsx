@@ -20,17 +20,17 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="flex-1 text-center lg:text-left">
             <AnimateOnScroll delay={100}>
-              <p className="text-muted-foreground font-body text-lg mb-2">Cardápio editável</p>
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-foreground leading-[0.95] mb-6">
-                Páscoa<br />
+              <p className="text-muted-foreground font-body font-medium text-lg mb-2">Cardápio editável</p>
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-extrabold text-foreground leading-[0.95] mb-6 tracking-wide">
+                PÁSCOA<br />
                 <span className="text-gradient-gold">2026</span>
               </h1>
             </AnimateOnScroll>
 
             <AnimateOnScroll delay={200}>
-              <p className="text-lg md:text-xl text-foreground/80 font-body leading-relaxed mb-8 max-w-lg">
+              <p className="text-lg md:text-xl text-foreground/80 font-body font-normal leading-relaxed mb-8 max-w-lg">
                 Impulsione suas encomendas de Páscoa com um cardápio que{" "}
-                <strong className="text-foreground">encanta e vende por você.</strong>
+                <strong className="text-foreground font-semibold">encanta e vende por você.</strong>
               </p>
             </AnimateOnScroll>
 
@@ -46,7 +46,7 @@ const HeroSection = () => {
 
             <AnimateOnScroll delay={400}>
               <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
-                Quero meu cardápio! 🐣
+                QUERO MEU CARDÁPIO! 🐣
               </a>
             </AnimateOnScroll>
           </div>

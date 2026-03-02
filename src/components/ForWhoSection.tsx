@@ -15,18 +15,18 @@ const ForWhoSection = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
           <div className="text-center mb-12">
-            <p className="font-body text-muted-foreground text-lg mb-2">este produto?</p>
-            <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground">
-              Pra quem é
+            <p className="font-body font-medium text-muted-foreground text-lg mb-2">este produto?</p>
+            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-foreground tracking-wide">
+              PRA QUEM É
             </h2>
           </div>
         </AnimateOnScroll>
 
         <AnimateOnScroll delay={100}>
           <div className="text-center mb-12">
-            <h3 className="text-2xl md:text-3xl font-display font-semibold text-foreground">
-              Encante seus clientes com um<br />
-              <span className="text-gradient-gold">cardápio que vende por você!</span>
+            <h3 className="text-2xl md:text-3xl font-display font-extrabold text-foreground tracking-wide">
+              ENCANTE SEUS CLIENTES COM UM<br />
+              <span className="text-gradient-gold">CARDÁPIO QUE VENDE POR VOCÊ!</span>
             </h3>
           </div>
         </AnimateOnScroll>

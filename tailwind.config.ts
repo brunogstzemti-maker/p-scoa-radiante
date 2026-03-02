@@ -14,8 +14,12 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Playfair Display"', 'serif'],
-        body: ['"Poppins"', 'sans-serif'],
+        display: ['"Montserrat"', 'sans-serif'],
+        body: ['"Montserrat"', 'sans-serif'],
+      },
+      letterSpacing: {
+        wide: '0.015em',
+        wider: '0.02em',
       },
       colors: {
         border: "hsl(var(--border))",
