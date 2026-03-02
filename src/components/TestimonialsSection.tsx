@@ -11,28 +11,28 @@ const testimonials = [
     time: "1 sem",
     avatarImg: avatar1,
     likes: 2,
-    text: "Voltei com meu feedback!\nQuero te parabenizar pelo belíssimo trabalho, que perfeição... Impermeável.\nEstou encantada com tanta lindeza.\nFácil de acessar, tudo bem explicadinho (tenho dificuldade com tecnologia e super consegui)\nAmando cada detalhe, sem dúvidas meus clientes vão ficar encantados com tamanha perfeição.\nSuper recomendo!",
+    text: "Voltei com meu feedback!\nAs receitas são maravilhosas, testei várias e todas deram super certo!\nMeus clientes amaram os sabores diferentes.\nSuper fácil de seguir, tudo bem explicadinho.\nAmando cada receita, sem dúvidas vou lucrar muito nesta Páscoa.\nSuper recomendo!",
   },
   {
     username: "jubrigadeiro_",
     time: "1 d",
     avatarImg: avatar2,
     likes: 1,
-    text: "Único cardápio que comprei que valeu o investimento tem tudo que preciso.\nConsigo colocar os meus produtos com muita facilidade",
+    text: "Melhor investimento que fiz para essa Páscoa! As receitas são incríveis e variadas.\nConsigo inovar nos sabores com muita facilidade.",
   },
   {
     username: "_dom_doccie_",
     time: "15 h",
     avatarImg: avatar3,
     likes: 0,
-    text: "O cardápio mais lindo da vidaaa!!\nSem contar o suporte e a atenção!\nSuper indicooo!!",
+    text: "As receitas mais lindas e gostosas da vidaaa!!\nVariedade incrível de sabores!\nSuper indicooo!!",
   },
   {
     username: "maisdoceconfeita",
     time: "1 d",
     avatarImg: avatar4,
     likes: 1,
-    text: "Que catálogo incrível, facilitou muito minha vida, super indico, e não vai doer no seu bolso, te garanto",
+    text: "Que e-book incrível, facilitou muito minha vida, super indico! 100 receitas testadas e aprovadas, e não vai doer no seu bolso!",
   },
 ];
 
@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
         <AnimateOnScroll>
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground tracking-wide mb-2">
-              Veja o que confeiteiras do<br />Brasil inteiro estão falando<br />sobre nossos cardápios:
+              Veja o que confeiteiras do<br />Brasil inteiro estão falando<br />sobre nossas receitas:
             </h2>
           </div>
         </AnimateOnScroll>

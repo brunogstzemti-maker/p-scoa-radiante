@@ -3,10 +3,10 @@ import { Check } from "lucide-react";
 
 const forWhoItems = [
   "Confeiteiras iniciantes ou experientes",
-  "Quem vende ovos, biscoitos, bolos, kits de Páscoa e outros",
-  "Quem quer vender mais gastando pouco",
-  "Quem não entende de design",
-  "Quem quer praticidade e profissionalismo",
+  "Quem quer variedade de sabores para vender",
+  "Quem quer lucrar mais nesta Páscoa",
+  "Quem busca receitas testadas e aprovadas",
+  "Quem quer surpreender seus clientes",
 ];
 
 const ForWhoSection = () => {
@@ -25,8 +25,8 @@ const ForWhoSection = () => {
         <AnimateOnScroll delay={100}>
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-display font-extrabold text-foreground tracking-wide">
-              ENCANTE SEUS CLIENTES COM UM<br />
-              <span className="text-gradient-gold">CARDÁPIO QUE VENDE POR VOCÊ!</span>
+              SURPREENDA SEUS CLIENTES COM<br />
+              <span className="text-gradient-gold">RECEITAS QUE VENDEM!</span>
             </h3>
           </div>
         </AnimateOnScroll>

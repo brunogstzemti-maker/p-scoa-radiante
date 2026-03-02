@@ -1,8 +1,6 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import confeiteiraImg from "@/assets/confeiteira.jpg";
 import instagramIcon from "@/assets/instagram-icon.png";
-import mockupWhatsapp from "@/assets/mockup-whatsapp-community.png";
-import whatsappIcon from "@/assets/whatsapp-icon.png";
 
 const AboutSection = () => {
   return (
@@ -23,7 +21,7 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-gold rounded-full scale-105 opacity-30" />
               <img
                 src={confeiteiraImg}
-                alt="Confeiteira criadora do cardápio"
+                alt="Confeiteira criadora das receitas"
                 className="relative w-52 h-52 rounded-full object-cover shadow-gold"
                 loading="lazy"
               />
@@ -33,15 +31,14 @@ const AboutSection = () => {
           <AnimateOnScroll delay={200}>
             <div className="text-center md:text-left">
               <p className="font-body font-normal text-foreground/80 leading-relaxed">
-                Confeiteira por muitos anos e apaixonada por tudo o que envolve doces. Vivi na prática a rotina intensa da confeitaria: produção puxada, datas comemorativas corridas e a necessidade de vender bem, mesmo com pouco tempo.
+                Confeiteira por muitos anos e apaixonada por tudo o que envolve doces. Vivi na prática a rotina intensa da confeitaria: produção puxada, datas comemorativas corridas e a necessidade de ter receitas certeiras para vender bem.
               </p>
               <p className="font-body font-normal text-foreground/80 leading-relaxed mt-4">
-                Este cardápio não foi criado apenas por uma designer, mas por alguém que já esteve no seu lugar.
+                Estas 100 receitas foram criadas e testadas por quem já esteve no seu lugar. Cada uma foi pensada para dar certo e gerar lucro.
               </p>
             </div>
           </AnimateOnScroll>
         </div>
-
       </div>
     </section>
   );

@@ -2,23 +2,22 @@ import AnimateOnScroll from "./AnimateOnScroll";
 import badge1 from "@/assets/badge-1.png";
 import badge14 from "@/assets/badge-14.png";
 import badge12 from "@/assets/badge-12.png";
-import canvaIcon from "@/assets/canva-icon.png";
 
 const steps = [
   {
     badge: badge1,
-    title: "Acesse pelo Canva",
-    desc: "(fácil e gratuito)",
+    title: "Receba o e-book no seu e-mail",
+    desc: "Acesso imediato após o pagamento.",
   },
   {
     badge: badge14,
-    title: "Altere produtos, preços, fotos e textos",
-    desc: "",
+    title: "Escolha suas receitas favoritas",
+    desc: "São 100 opções para todos os gostos!",
   },
   {
     badge: badge12,
-    title: "Salve e envie rapidinho",
-    desc: "para suas clientes.",
+    title: "Produza e venda muito",
+    desc: "Surpreenda seus clientes e lucre!",
   },
 ];
 
@@ -31,7 +30,7 @@ const HowItWorksSection = () => {
             COMO FUNCIONA?
           </h2>
           <p className="text-center text-muted-foreground font-body font-medium text-lg mb-12">
-            É só isso! Em poucos minutos seu cardápio estará lindo, profissional e pronto.
+            É simples! Em poucos minutos você terá acesso a todas as receitas.
           </p>
         </AnimateOnScroll>
 
@@ -49,9 +48,8 @@ const HowItWorksSection = () => {
 
         <AnimateOnScroll delay={500}>
           <div className="flex items-center justify-center gap-3 mt-10">
-            <img src={canvaIcon} alt="Canva" className="w-8 h-8 rounded-full" loading="lazy" />
             <p className="font-body font-normal text-foreground/70 text-lg">
-              Mesmo que você <strong className="font-semibold">não entenda nada de design!</strong>
+              Receitas <strong className="font-semibold">fáceis de seguir</strong>, mesmo para iniciantes!
             </p>
           </div>
         </AnimateOnScroll>
