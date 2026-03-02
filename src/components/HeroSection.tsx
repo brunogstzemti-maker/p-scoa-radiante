@@ -1,6 +1,3 @@
-import heroOvo from "@/assets/hero-ovo.png";
-import mockupCapa from "@/assets/mockup-capa-pascoa.png";
-import canvaIcon from "@/assets/canva-icon.png";
 import AnimateOnScroll from "./AnimateOnScroll";
 
 const HeroSection = () => {
@@ -41,18 +38,6 @@ const HeroSection = () => {
             </AnimateOnScroll>
           </div>
 
-          {/* Right Image */}
-          <AnimateOnScroll className="flex-1 max-w-md lg:max-w-lg" delay={200}>
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-gold rounded-[60px] rotate-3 opacity-20 scale-105" />
-              <img
-                src={mockupCapa}
-                alt="Capa do Cardápio de Páscoa 2026 com coelhinha e ovos de chocolate"
-                className="relative rounded-[40px] shadow-gold w-full object-cover animate-float"
-                loading="eager"
-              />
-            </div>
-          </AnimateOnScroll>
         </div>
       </div>
 
