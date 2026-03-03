@@ -102,7 +102,7 @@ const PricingSection = () => {
                 <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 97</span>
                 <span className="text-primary-foreground font-body font-normal text-sm"> por apenas</span>
                 <p className="text-5xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
-                <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 6x R$ 5,24</p>
+                <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 5x R$ 5,58</p>
               </div>
 
               <div className="flex-1 space-y-1.5 mb-6">
