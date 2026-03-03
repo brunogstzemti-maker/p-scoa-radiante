@@ -79,7 +79,7 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#planos" className="block text-center bg-gradient-btn text-primary-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform shadow-btn">
+              <a href="https://www.ggcheckout.com/checkout/v2/juuSov89FzBKk3sEim7N" target="_blank" rel="noopener noreferrer" className="block text-center bg-gradient-btn text-primary-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform shadow-btn">
                 QUERO ESTE PLANO!
               </a>
             </div>
@@ -131,7 +131,7 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="#planos" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+              <a href="https://www.ggcheckout.com/checkout/v2/UYenHHkZyNZiJdEg3nLt" target="_blank" rel="noopener noreferrer" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
                 SIM, QUERO OFERTA PREMIUM!
               </a>
             </div>
