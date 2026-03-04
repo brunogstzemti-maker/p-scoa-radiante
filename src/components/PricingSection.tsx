@@ -1,6 +1,5 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import { Check, X, Star } from "lucide-react";
-import mockupOferta from "@/assets/mockup-oferta-completa.jpg";
 
 const basicPlan = {
   items: [
@@ -88,11 +87,7 @@ const PricingSection = () => {
 
           {/* Complete Plan */}
           <AnimateOnScroll delay={200}>
-            <div className="relative bg-gradient-gold rounded-[32px] p-8 pt-20 flex flex-col h-full shadow-gold mt-16 md:mt-16">
-              <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-full max-w-[280px] z-10 pointer-events-none">
-                <img src={mockupOferta} alt="Mockup Oferta Completa" className="w-full h-auto drop-shadow-2xl" />
-              </div>
-
+            <div className="relative bg-gradient-gold rounded-[32px] p-8 flex flex-col h-full shadow-gold">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
                 <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
                   <Star className="w-3.5 h-3.5 fill-current" /> MAIS VENDIDO
