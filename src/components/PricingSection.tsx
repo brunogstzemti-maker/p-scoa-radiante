@@ -17,13 +17,23 @@ const basicPlan = {
 };
 
 const completePlan = {
-  items: [
-    "Ebook completo passo a passo",
-    "Receitas testadas",
-    "Lista dos recheios mais vendidos",
-    "Método de cálculo de lucro",
-    "Estratégia simples de vendas",
-    "Organização da produção",
+  receitas: [
+    "50 Receitas de Ovos de Páscoa",
+    "Receitas clássicas e tradicionais",
+    "Receitas gourmet e premium",
+    "Receitas fitness e saudáveis",
+  ],
+  extras: [
+    "Instruções passo a passo detalhadas",
+    "Fotos ilustrativas de cada receita",
+    "Dicas de apresentação e embalagem",
+    "Dicas de precificação para lucrar",
+  ],
+  bonus: [
+    "Fotos profissionais para divulgação",
+    "Planilha de precificação",
+    "Dicas de divulgação nas redes sociais",
+    "Bônus surpresa exclusivos",
   ],
 };
 
@@ -78,47 +88,55 @@ const PricingSection = () => {
 
           {/* Complete Plan */}
           <AnimateOnScroll delay={200}>
-            <div className="relative bg-card rounded-[32px] border border-border flex flex-col h-full shadow-gold overflow-hidden">
-              <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20">
-                <div className="bg-gold text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
+            <div className="relative bg-gradient-gold rounded-[32px] p-8 pt-20 flex flex-col h-full shadow-gold mt-16 md:mt-16">
+              <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-full max-w-[280px] z-10 pointer-events-none">
+                <img src={mockupOferta} alt="Mockup Oferta Completa" className="w-full h-auto drop-shadow-2xl" />
+              </div>
+
+              <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
+                <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
                   <Star className="w-3.5 h-3.5 fill-current" /> MAIS VENDIDO
                 </div>
               </div>
 
-              <div className="relative w-full aspect-[4/3] bg-white pt-10">
-                <img src={mockupOferta} alt="Oferta Completa" className="w-full h-full object-contain" />
+              <h3 className="text-2xl font-display font-extrabold text-primary-foreground mb-4 tracking-wide">PLANO COMPLETO</h3>
+
+              <div className="mb-6">
+                <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 97</span>
+                <span className="text-primary-foreground font-body font-normal text-sm"> por apenas</span>
+                <p className="text-5xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
+                <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 5x R$ 5,58</p>
               </div>
 
-              <div className="p-8 pt-6 flex flex-col flex-1">
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-[#D4145A] mb-2" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                    Veja tudo o que você recebe hoje:
-                  </h3>
-                  <p className="font-body text-muted-foreground font-normal">Ao adquirir hoje o ebook, você recebe:</p>
-                </div>
-
-                <div className="flex-1 space-y-0 text-foreground mb-6">
-                  {completePlan.items.map((item) => (
-                    <div key={item} className="flex items-center gap-3 py-2.5 border-b border-border last:border-0 text-left">
-                      <div className="bg-[#2EB85C] rounded-md p-1">
-                        <Check className="w-3.5 h-3.5 text-white stroke-[4]" />
-                      </div>
-                      <span className="font-body font-medium text-foreground">{item}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mb-6 text-center">
-                  <span className="text-muted-foreground font-body line-through text-lg">R$ 97</span>
-                  <span className="text-foreground font-body font-normal text-sm"> por apenas</span>
-                  <p className="text-5xl font-display font-extrabold text-gradient-gold tracking-wide">R$ 27,90</p>
-                  <p className="text-muted-foreground font-body font-normal text-sm mt-1">Ou 5x R$ 5,58</p>
-                </div>
-
-                <a href="https://www.ggcheckout.com/checkout/v2/UYenHHkZyNZiJdEg3nLt" target="_blank" rel="noopener noreferrer" className="block text-center bg-gradient-btn text-primary-foreground font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
-                  SIM, QUERO OFERTA PREMIUM!
-                </a>
+              <div className="flex-1 space-y-1.5 mb-6">
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-2">Receitas:</p>
+                {completePlan.receitas.map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
+                  </div>
+                ))}
+                <div className="pt-3" />
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Extras inclusos:</p>
+                {completePlan.extras.map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
+                  </div>
+                ))}
+                <div className="pt-3" />
+                <p className="font-body text-primary-foreground/90 text-xs font-semibold uppercase tracking-wider mb-1">Bônus especiais:</p>
+                {completePlan.bonus.map((item) => (
+                  <div key={item} className="flex items-start gap-2">
+                    <Check className="w-4 h-4 text-primary-foreground flex-shrink-0 mt-0.5" />
+                    <span className="font-body font-normal text-primary-foreground text-sm">{item}</span>
+                  </div>
+                ))}
               </div>
+
+              <a href="https://www.ggcheckout.com/checkout/v2/UYenHHkZyNZiJdEg3nLt" target="_blank" rel="noopener noreferrer" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+                SIM, QUERO OFERTA PREMIUM!
+              </a>
             </div>
           </AnimateOnScroll>
         </div>
