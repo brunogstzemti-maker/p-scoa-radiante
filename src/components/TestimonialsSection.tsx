@@ -4,6 +4,11 @@ import avatar1 from "@/assets/avatar-1.jpg";
 import avatar2 from "@/assets/avatar-2.webp";
 import avatar3 from "@/assets/avatar-3.jpg";
 import avatar4 from "@/assets/avatar-4.webp";
+import testImg1 from "@/assets/testimonial-img-1.jpg";
+import testImg2 from "@/assets/testimonial-img-2.jpg";
+import testImg3 from "@/assets/testimonial-img-3.jpg";
+import testImg4 from "@/assets/testimonial-img-4.jpg";
+import testImg5 from "@/assets/testimonial-img-5.jpg";
 
 const testimonials = [
   {
@@ -76,6 +81,23 @@ const TestimonialsSection = () => {
               </div>
             </AnimateOnScroll>
           ))}
+          <AnimateOnScroll delay={500}>
+            <div className="text-center mt-16 mb-8">
+              <h3 className="text-2xl md:text-3xl font-display font-extrabold text-foreground tracking-wide">
+                MAIS FEEDBACKS POSITIVOS:
+              </h3>
+            </div>
+          </AnimateOnScroll>
+
+          <div className="grid grid-cols-1 gap-6 max-w-xl mx-auto">
+            {[testImg1, testImg2, testImg3, testImg4, testImg5].map((img, i) => (
+              <AnimateOnScroll key={i} delay={600 + i * 100}>
+                <div className="rounded-2xl overflow-hidden shadow-md border border-border">
+                  <img src={img} alt={`Depoimento ${i + 1}`} className="w-full h-auto object-contain" loading="lazy" />
+                </div>
+              </AnimateOnScroll>
+            ))}
+          </div>
         </div>
       </div>
     </section>
