@@ -9,6 +9,9 @@ import testImg2 from "@/assets/testimonial-img-2.jpg";
 import testImg3 from "@/assets/testimonial-img-3.jpg";
 import testImg4 from "@/assets/testimonial-img-4.jpg";
 import testImg5 from "@/assets/testimonial-img-5.jpg";
+import testImg6 from "@/assets/testimonial-img-6.jpg";
+import testImg7 from "@/assets/testimonial-img-7.jpg";
+import testImg8 from "@/assets/testimonial-img-8.jpg";
 
 const testimonials = [
   {
@@ -90,7 +93,7 @@ const TestimonialsSection = () => {
           </AnimateOnScroll>
 
           <div className="grid grid-cols-1 gap-6 max-w-xl mx-auto">
-            {[testImg1, testImg2, testImg3, testImg4, testImg5].map((img, i) => (
+            {[testImg1, testImg2, testImg3, testImg4, testImg5, testImg6, testImg7, testImg8].map((img, i) => (
               <AnimateOnScroll key={i} delay={600 + i * 100}>
                 <div className="rounded-2xl overflow-hidden shadow-md border border-border">
                   <img src={img} alt={`Depoimento ${i + 1}`} className="w-full h-auto object-contain" loading="lazy" />
