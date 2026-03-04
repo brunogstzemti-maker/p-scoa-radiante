@@ -32,7 +32,7 @@ const testimonials = [
     time: "1 d",
     avatarImg: avatar4,
     likes: 1,
-    text: "Que e-book incrível, facilitou muito minha vida, super indico! 100 receitas testadas e aprovadas, e não vai doer no seu bolso!",
+    text: "Que e-book incrível, facilitou muito minha vida, super indico! 50 receitas testadas e aprovadas, e não vai doer no seu bolso!",
   },
 ];
 

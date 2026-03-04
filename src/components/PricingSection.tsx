@@ -17,7 +17,7 @@ const basicPlan = {
 
 const completePlan = {
   receitas: [
-    "100 Receitas de Ovos de Páscoa",
+    "50 Receitas de Ovos de Páscoa",
     "Receitas clássicas e tradicionais",
     "Receitas gourmet e premium",
     "Receitas fitness e saudáveis",

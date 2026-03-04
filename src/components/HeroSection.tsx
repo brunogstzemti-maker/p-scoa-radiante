@@ -19,7 +19,7 @@ const HeroSection = () => {
               Lucre <strong className="font-extrabold text-foreground">muito mais</strong> com as nossas
             </p>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gradient-gold leading-[1.1] mb-6" style={{ fontFamily: "'Dancing Script', cursive" }}>
-              100 Receitas de Ovos
+              50 Receitas de Ovos
             </h1>
           </AnimateOnScroll>
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
 
           <AnimateOnScroll delay={300}>
               <div className="relative mx-auto max-w-md mb-6">
-                <img src={mockupReceitas} alt="100 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
+                <img src={mockupReceitas} alt="50 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
               </div>
           </AnimateOnScroll>
 

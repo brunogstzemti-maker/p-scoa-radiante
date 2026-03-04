@@ -13,7 +13,7 @@ const FinalCTASection = () => {
             <h2 className="text-3xl md:text-5xl font-display font-extrabold text-primary-foreground mb-2 tracking-wide">
               ÚLTIMA CHAMADA!
             </h2>
-            <p className="text-primary-foreground/80 font-body font-medium mb-2">100 RECEITAS + BÔNUS EXCLUSIVOS</p>
+            <p className="text-primary-foreground/80 font-body font-medium mb-2">50 RECEITAS + BÔNUS EXCLUSIVOS</p>
             <div className="my-6">
               <p className="text-primary-foreground/70 font-body line-through text-lg">de R$ 97,00</p>
               <p className="text-primary-foreground font-body font-normal text-sm">por</p>
