@@ -12,14 +12,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 pt-8 pb-20 relative z-10">
         <div className="flex flex-col items-center max-w-3xl mx-auto text-center">
           <AnimateOnScroll delay={100}>
-            <p className="text-foreground/70 font-body text-2xl md:text-3xl mb-1">
-              A <strong className="font-extrabold text-foreground">Páscoa</strong> está chegando...
-            </p>
-            <p className="text-foreground/70 font-body text-xl md:text-2xl mb-4">
-              Lucre <strong className="font-extrabold text-foreground">muito mais</strong> com as nossas
-            </p>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gradient-gold leading-[1.1] mb-6" style={{ fontFamily: "'Dancing Script', cursive" }}>
-              50 Receitas de Ovos
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.2] mb-8 uppercase tracking-tight">
+              Lucre mais de <span className="text-gradient-gold">R$ 5MIL</span> nessa páscoa com as <span className="text-gradient-gold italic" style={{ fontFamily: "'Dancing Script', cursive", textTransform: 'none' }}>melhores receitas</span> de ovos de páscoa
             </h1>
           </AnimateOnScroll>
 
@@ -31,9 +25,9 @@ const HeroSection = () => {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
-              <div className="relative mx-auto max-w-md mb-6">
-                <img src={mockupReceitas} alt="50 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
-              </div>
+            <div className="relative mx-auto max-w-md mb-6">
+              <img src={mockupReceitas} alt="50 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
+            </div>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
@@ -48,7 +42,7 @@ const HeroSection = () => {
       {/* Wave divider */}
       <div className="absolute bottom-0 left-0 right-0">
         <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 120L60 105C120 90 240 60 360 52.5C480 45 600 60 720 67.5C840 75 960 75 1080 67.5C1200 60 1320 45 1380 37.5L1440 30V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white"/>
+          <path d="M0 120L60 105C120 90 240 60 360 52.5C480 45 600 60 720 67.5C840 75 960 75 1080 67.5C1200 60 1320 45 1380 37.5L1440 30V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white" />
         </svg>
       </div>
     </section>
