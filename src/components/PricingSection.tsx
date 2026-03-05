@@ -6,6 +6,7 @@ const basicPlan = {
     "50 Receitas de Ovos de Páscoa",
     "Receitas clássicas e tradicionais",
     "Instruções passo a passo",
+    "Acesso vitalício",
   ],
   notIncluded: [
     "Não inclui receitas gourmet",
@@ -17,7 +18,7 @@ const basicPlan = {
 
 const completePlan = {
   receitas: [
-    "50 Receitas de Ovos de Páscoa",
+    "100 Receitas de Ovos de Páscoa",
     "Receitas clássicas e tradicionais",
     "Receitas gourmet e premium",
     "Receitas fitness e saudáveis",
