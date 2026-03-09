@@ -41,7 +41,7 @@ const BonusSection = () => {
 
         <AnimateOnScroll delay={600}>
           <div className="text-center mt-12">
-            <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-12 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
+            <a href="#plano-completo" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-12 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
               SIM, QUERO O PLANO COMPLETO!
             </a>
           </div>

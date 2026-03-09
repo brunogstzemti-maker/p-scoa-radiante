@@ -31,7 +31,7 @@ const HeroSection = () => {
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
-            <a href="#planos" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
+            <a href="#plano-completo" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
               QUERO MINHAS RECEITAS!
             </a>
             <img src={trustBadges} alt="Acesso imediato, Garantia de 7 dias, Acesso vitalício" className="mt-6 w-full max-w-sm mx-auto" loading="eager" />

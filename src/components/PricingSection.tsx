@@ -88,7 +88,7 @@ const PricingSection = () => {
 
           {/* Complete Plan */}
           <AnimateOnScroll delay={200}>
-            <div className="relative bg-gradient-gold rounded-[32px] p-8 flex flex-col h-full shadow-gold">
+            <div id="plano-completo" className="relative bg-gradient-gold rounded-[32px] p-8 flex flex-col h-full shadow-gold">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 z-20">
                 <div className="bg-foreground text-primary-foreground font-body text-xs font-bold px-5 py-1.5 rounded-full flex items-center gap-1.5 tracking-wider">
                   <Star className="w-3.5 h-3.5 fill-current" /> MAIS VENDIDO
