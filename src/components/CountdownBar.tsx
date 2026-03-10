@@ -1,25 +1,18 @@
 import { useState, useEffect } from "react";
 
 const CountdownBar = () => {
-  const [timeLeft, setTimeLeft] = useState({ hours: 0, minutes: 0, seconds: 0 });
+  const [timeLeft, setTimeLeft] = useState({ minutes: 16, seconds: 0 });
+  const [endTime] = useState(() => Date.now() + 16 * 60 * 1000);
 
   useEffect(() => {
-    const getEndOfDay = () => {
-      const now = new Date();
-      const end = new Date(now);
-      end.setHours(23, 59, 59, 999);
-      return end.getTime() - now.getTime();
-    };
-
     const update = () => {
-      const diff = getEndOfDay();
+      const diff = endTime - Date.now();
       if (diff <= 0) {
-        setTimeLeft({ hours: 0, minutes: 0, seconds: 0 });
+        setTimeLeft({ minutes: 0, seconds: 0 });
         return;
       }
       setTimeLeft({
-        hours: Math.floor(diff / (1000 * 60 * 60)),
-        minutes: Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)),
+        minutes: Math.floor(diff / (1000 * 60)),
         seconds: Math.floor((diff % (1000 * 60)) / 1000),
       });
     };
@@ -27,7 +20,7 @@ const CountdownBar = () => {
     update();
     const interval = setInterval(update, 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [endTime]);
 
   const pad = (n: number) => String(n).padStart(2, "0");
 
