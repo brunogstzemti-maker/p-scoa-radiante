@@ -38,7 +38,7 @@ const CountdownBar = () => {
       <p className="font-body font-medium text-primary-foreground text-xs md:text-sm">
         {dateStr} | Tempo restante:{" "}
         <span className="font-bold text-[hsl(48,100%,50%)]">
-          {pad(timeLeft.hours)}h {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
+          {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
         </span>
       </p>
     </div>
