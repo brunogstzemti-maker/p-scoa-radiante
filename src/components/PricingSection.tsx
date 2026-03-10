@@ -98,7 +98,7 @@ const PricingSection = () => {
               <h3 className="text-2xl font-display font-extrabold text-primary-foreground mb-4 tracking-wide">PLANO COMPLETO</h3>
 
               <div className="mb-6">
-                <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 97</span>
+                <span className="text-primary-foreground/70 font-body line-through text-lg">R$ 67,00</span>
                 <span className="text-primary-foreground font-body font-normal text-sm"> por apenas</span>
                 <p className="text-5xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
                 <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 5x R$ 5,58</p>
