@@ -33,6 +33,7 @@ const completePlan = {
     "Fotos profissionais para divulgação",
     "Planilha de precificação",
     "Dicas de divulgação nas redes sociais",
+    "Suporte individual",
     "Bônus surpresa exclusivos",
   ],
 };
