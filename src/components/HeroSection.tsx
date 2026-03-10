@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center max-w-3xl mx-auto text-center">
           <AnimateOnScroll delay={100}>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.2] mb-8 uppercase tracking-tight">
-              Lucre mais de <span className="text-gradient-gold">R$ 5MIL</span> nessa páscoa com as <span className="text-gradient-gold italic" style={{ fontFamily: "'Dancing Script', cursive", textTransform: 'none' }}>melhores receitas</span> de ovos de páscoa
+              Lucre mais de <span className="text-gradient-gold">R$ 5MIL</span> nessa páscoa com as <span className="text-gradient-gold">melhores receitas</span> de ovos de páscoa
             </h1>
           </AnimateOnScroll>
 
