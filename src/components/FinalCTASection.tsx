@@ -15,7 +15,7 @@ const FinalCTASection = () => {
             </h2>
             <p className="text-primary-foreground/80 font-body font-medium mb-2">50 RECEITAS + BÔNUS EXCLUSIVOS</p>
             <div className="my-6">
-              <p className="text-primary-foreground/70 font-body line-through text-lg">de R$ 97,00</p>
+              <p className="text-primary-foreground/70 font-body line-through text-lg">de R$ 67,00</p>
               <p className="text-primary-foreground font-body font-normal text-sm">por</p>
               <p className="text-6xl md:text-7xl font-display font-extrabold text-primary-foreground tracking-wide">R$ 27,90</p>
               <p className="text-primary-foreground/80 font-body font-normal text-sm mt-1">Ou 5x R$ 5,58</p>
