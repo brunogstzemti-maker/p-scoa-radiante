@@ -22,7 +22,7 @@ const AboutSection = () => {
               <img
                 src={confeiteiraImg}
                 alt="Confeiteira criadora das receitas"
-                className="relative w-52 h-52 rounded-full object-cover shadow-gold"
+                className="relative w-52 h-52 rounded-full object-cover object-top shadow-gold"
                 loading="lazy"
               />
             </div>
