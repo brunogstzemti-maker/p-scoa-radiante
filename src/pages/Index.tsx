@@ -1,6 +1,7 @@
 import CountdownBar from "@/components/CountdownBar";
 import HeroSection from "@/components/HeroSection";
 import ProblemSection from "@/components/ProblemSection";
+import MediaProofSection from "@/components/MediaProofSection";
 import ForWhoSection from "@/components/ForWhoSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import PricingSection from "@/components/PricingSection";
@@ -16,6 +17,7 @@ const Index = () => {
     <main>
       <CountdownBar />
       <HeroSection />
+      <MediaProofSection />
       <ProblemSection />
       <ForWhoSection />
       <HowItWorksSection />
