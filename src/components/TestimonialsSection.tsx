@@ -1,10 +1,8 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import testImg1 from "@/assets/testimonial-img-1.jpg";
 import testImg2 from "@/assets/testimonial-img-2.jpg";
-
 import testImg4 from "@/assets/testimonial-img-4.jpg";
 import testImg5 from "@/assets/testimonial-img-5.jpg";
-
 import testImg7 from "@/assets/testimonial-img-7.jpg";
 import testImg9 from "@/assets/testimonial-img-9.jpg";
 
@@ -17,6 +15,20 @@ const TestimonialsSection = () => {
             <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground tracking-wide mb-2">
               Veja o que confeiteiras do<br />Brasil inteiro estão falando<br />sobre nossas receitas:
             </h2>
+          </div>
+        </AnimateOnScroll>
+
+        {/* Highlighted testimonial */}
+        <AnimateOnScroll delay={100}>
+          <div className="mb-8">
+            <div className="inline-block bg-destructive/10 text-destructive font-display font-bold text-sm px-4 py-1.5 rounded-full mb-3 tracking-wider">
+              ⭐ RESULTADO EM 5 DIAS
+            </div>
+            <div className="bg-gradient-pink rounded-2xl p-6 border-2 border-primary shadow-pink">
+              <p className="font-body text-foreground text-base md:text-lg leading-relaxed italic">
+                "Posso dizer para vc com apenas 5 dias seguindo tudo a risca já recebi várias encomendas! Ano passado foi péssimo e eu tava bem desanimada mas agora eu to só alegria e bem positiva."
+              </p>
+            </div>
           </div>
         </AnimateOnScroll>
 

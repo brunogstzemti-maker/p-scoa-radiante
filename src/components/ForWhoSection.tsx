@@ -2,11 +2,12 @@ import AnimateOnScroll from "./AnimateOnScroll";
 import { Check } from "lucide-react";
 
 const forWhoItems = [
-  "Confeiteiras iniciantes ou experientes",
-  "Quem quer variedade de sabores para vender",
-  "Quem quer lucrar mais nesta Páscoa",
-  "Quem busca receitas testadas e aprovadas",
-  "Quem quer surpreender seus clientes",
+  "Anota pedido no papel e vive esquecendo alguma coisa na hora de produzir",
+  "Sempre faz as mesmas receitas e não sabe mais o que oferecer para os clientes",
+  "Quer cobrar mais pelos seus ovos mas não sabe como justificar o preço",
+  "Já perdeu venda por não ter uma receita diferente na hora que o cliente pediu",
+  "Quer surpreender seus clientes nessa Páscoa e sair na frente da concorrência",
+  "Busca receitas testadas que realmente funcionam — sem desperdício e sem erro",
 ];
 
 const ForWhoSection = () => {
@@ -15,30 +16,20 @@ const ForWhoSection = () => {
       <div className="container mx-auto px-4 max-w-4xl">
         <AnimateOnScroll>
           <div className="text-center mb-12">
-            <p className="font-body font-medium text-muted-foreground text-lg mb-2">este produto?</p>
-            <h2 className="text-4xl md:text-5xl font-display font-extrabold text-foreground tracking-wide">
-              PRA QUEM É
+            <h2 className="text-3xl md:text-5xl font-display font-extrabold text-foreground tracking-wide">
+              ESTE E-BOOK É PRA VOCÊ QUE...
             </h2>
           </div>
         </AnimateOnScroll>
 
-        <AnimateOnScroll delay={100}>
-          <div className="text-center mb-12">
-            <h3 className="text-2xl md:text-3xl font-display font-extrabold text-foreground tracking-wide">
-              SURPREENDA SEUS CLIENTES COM<br />
-              <span className="text-gradient-gold">RECEITAS QUE VENDEM!</span>
-            </h3>
-          </div>
-        </AnimateOnScroll>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-3xl mx-auto">
+        <div className="flex flex-col gap-4 max-w-2xl mx-auto">
           {forWhoItems.map((item, i) => (
-            <AnimateOnScroll key={item} delay={150 + i * 80}>
+            <AnimateOnScroll key={i} delay={100 + i * 80}>
               <div className="bg-background/80 backdrop-blur-sm rounded-2xl p-5 border border-border flex items-start gap-3 hover:shadow-gold transition-shadow duration-300">
                 <div className="flex-shrink-0 w-7 h-7 rounded-full bg-gradient-gold flex items-center justify-center mt-0.5">
                   <Check className="w-4 h-4 text-primary-foreground" />
                 </div>
-                <p className="font-body text-foreground font-medium text-sm">{item}</p>
+                <p className="font-body text-foreground font-medium text-sm leading-relaxed">{item}</p>
               </div>
             </AnimateOnScroll>
           ))}

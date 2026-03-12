@@ -34,7 +34,10 @@ const AboutSection = () => {
                 Confeiteira por muitos anos e apaixonada por tudo o que envolve doces. Vivi na prática a rotina intensa da confeitaria: produção puxada, datas comemorativas corridas e a necessidade de ter receitas certeiras para vender bem.
               </p>
               <p className="font-body font-normal text-foreground/80 leading-relaxed mt-4">
-                Estas 50 receitas foram criadas e testadas por quem já esteve no seu lugar. Cada uma foi pensada para dar certo e gerar lucro.
+                Estas 100 receitas foram criadas e testadas por quem já esteve no seu lugar. Cada uma foi pensada para dar certo e gerar lucro.
+              </p>
+              <p className="font-body font-semibold text-primary leading-relaxed mt-4">
+                Já ajudei centenas de confeiteiras a lucrar mais na Páscoa com receitas que realmente funcionam.
               </p>
               <a
                 href="https://instagram.com/lauramenezes_drp"
