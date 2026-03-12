@@ -20,19 +20,6 @@ const TestimonialsSection = () => {
           </div>
         </AnimateOnScroll>
 
-        {/* Highlighted testimonial */}
-        <AnimateOnScroll delay={100}>
-          <div className="mb-8">
-            <div className="inline-block bg-destructive/10 text-destructive font-display font-bold text-sm px-4 py-1.5 rounded-full mb-3 tracking-wider">
-              ⭐ RESULTADO EM 5 DIAS
-            </div>
-            <div className="bg-gradient-pink rounded-2xl p-6 border-2 border-primary shadow-pink">
-              <p className="font-body text-foreground text-base md:text-lg leading-relaxed italic">
-                "Posso dizer para vc com apenas 5 dias seguindo tudo a risca já recebi várias encomendas! Ano passado foi péssimo e eu tava bem desanimada mas agora eu to só alegria e bem positiva."
-              </p>
-            </div>
-          </div>
-        </AnimateOnScroll>
 
         <div className="grid grid-cols-1 gap-6 max-w-xl mx-auto">
           {[testImg1, testImg2, testImg4, testImg5, testImg7, testImg9, testImg10, testImg11].map((img, i) => (
