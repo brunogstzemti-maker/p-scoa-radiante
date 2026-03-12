@@ -12,27 +12,33 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 pt-8 pb-20 relative z-10">
         <div className="flex flex-col items-center max-w-3xl mx-auto text-center">
           <AnimateOnScroll delay={100}>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.2] mb-8 uppercase tracking-tight">
-              Lucre mais de <span className="text-gradient-gold">R$ 5MIL</span> nessa páscoa com as <span className="text-gradient-gold">melhores receitas</span> de ovos de páscoa
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.2] mb-6 uppercase tracking-tight">
+              100 RECEITAS TESTADAS PARA VOCÊ <span className="text-gradient-gold">VENDER MUITO MAIS</span> NESSA PÁSCOA 🍫
             </h1>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={200}>
-            <p className="text-lg md:text-xl text-foreground/80 font-body font-normal leading-relaxed mb-8 max-w-lg">
+            <p className="text-lg md:text-xl text-foreground/80 font-body font-normal leading-relaxed mb-6 max-w-lg">
               <span className="underline decoration-primary decoration-[3px] underline-offset-4">Transforme sua Páscoa em lucro</span> com receitas testadas que{" "}
               <strong className="text-foreground font-semibold">seus clientes vão amar.</strong>
             </p>
           </AnimateOnScroll>
 
+          <AnimateOnScroll delay={250}>
+            <a href="#plano-completo" className="w-full max-w-md inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300 mb-6">
+              QUERO AS 100 RECEITAS — R$ 27,90
+            </a>
+          </AnimateOnScroll>
+
           <AnimateOnScroll delay={300}>
             <div className="relative mx-auto max-w-md mb-6">
-              <img src={mockupReceitas} alt="50 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
+              <img src={mockupReceitas} alt="100 receitas incríveis de Páscoa 2026" className="w-full max-w-sm mx-auto rounded-2xl" loading="eager" />
             </div>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={400}>
             <a href="#plano-completo" className="inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300">
-              QUERO MINHAS RECEITAS!
+              QUERO AS 100 RECEITAS!
             </a>
             <img src={trustBadges} alt="Acesso imediato, Garantia de 7 dias, Acesso vitalício" className="mt-6 w-full max-w-sm mx-auto" loading="eager" />
           </AnimateOnScroll>

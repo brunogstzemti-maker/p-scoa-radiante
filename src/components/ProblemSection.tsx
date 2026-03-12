@@ -74,7 +74,7 @@ const ProblemSection = () => {
               MAS SAIBA QUE ISSO PODE<br /><span className="text-gradient-gold">MUDAR AGORA!</span>
             </h3>
             <p className="text-lg font-body font-normal text-foreground/80 max-w-2xl mx-auto">
-              O e-book 50 Receitas de Ovos de Páscoa foi criado para te entregar receitas testadas e aprovadas para você surpreender seus clientes e vender muito mais.
+              O e-book 100 Receitas de Ovos de Páscoa foi criado para te entregar receitas testadas e aprovadas para você surpreender seus clientes e vender muito mais.
             </p>
           </div>
         </AnimateOnScroll>

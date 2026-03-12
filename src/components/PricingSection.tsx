@@ -1,9 +1,9 @@
 import AnimateOnScroll from "./AnimateOnScroll";
-import { Check, X, Star } from "lucide-react";
+import { Check, X, Star, AlertTriangle } from "lucide-react";
 
 const basicPlan = {
   items: [
-    "50 Receitas de Ovos de Páscoa",
+    "100 Receitas de Ovos de Páscoa",
     "Receitas clássicas e tradicionais",
     "Instruções passo a passo",
     "Acesso vitalício",
@@ -57,9 +57,9 @@ const PricingSection = () => {
             <div className="bg-card rounded-[32px] border border-border p-8 flex flex-col h-full">
               <h3 className="text-2xl font-display font-extrabold text-foreground mb-2 tracking-wide">PLANO BÁSICO</h3>
               <div className="mb-6">
-                <span className="text-muted-foreground font-body line-through text-lg">R$ 27,90</span>
+                <span className="text-muted-foreground font-body line-through text-lg">R$ 34,90</span>
                 <span className="text-foreground font-body font-normal text-sm"> por apenas</span>
-                <p className="text-5xl font-display font-extrabold text-gradient-gold tracking-wide">R$ 10,00</p>
+                <p className="text-5xl font-display font-extrabold text-gradient-gold tracking-wide">R$ 17,90</p>
               </div>
 
               <div className="flex-1 space-y-3 mb-6">
@@ -81,8 +81,8 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="https://www.ggcheckout.com/checkout/v2/juuSov89FzBKk3sEim7N" target="_blank" rel="noopener noreferrer" className="block text-center bg-gradient-btn text-primary-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform shadow-btn">
-                QUERO ESTE PLANO!
+              <a href="https://www.ggcheckout.com/checkout/v2/juuSov89FzBKk3sEim7N" target="_blank" rel="noopener noreferrer" className="block text-center bg-muted text-muted-foreground font-body font-semibold py-3.5 rounded-full hover:scale-105 transition-transform border border-border">
+                QUERO ESTE PLANO
               </a>
             </div>
           </AnimateOnScroll>
@@ -131,9 +131,14 @@ const PricingSection = () => {
                 ))}
               </div>
 
-              <a href="https://www.ggcheckout.com/checkout/v2/UYenHHkZyNZiJdEg3nLt" target="_blank" rel="noopener noreferrer" className="block text-center bg-primary-foreground text-btn-dark font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
+              <a href="https://www.ggcheckout.com/checkout/v2/UYenHHkZyNZiJdEg3nLt" target="_blank" rel="noopener noreferrer" className="block text-center bg-gradient-btn text-primary-foreground font-body font-bold py-4 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg">
                 SIM, QUERO OFERTA PREMIUM!
               </a>
+
+              <p className="mt-4 text-center text-xs font-body font-medium text-destructive flex items-center justify-center gap-1.5">
+                <AlertTriangle className="w-3.5 h-3.5" />
+                Páscoa é em 24 dias — quem comprar hoje ainda tem tempo de lucrar.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
