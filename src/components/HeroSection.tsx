@@ -24,11 +24,6 @@ const HeroSection = () => {
             </p>
           </AnimateOnScroll>
 
-          <AnimateOnScroll delay={250}>
-            <a href="#plano-completo" className="w-full max-w-md inline-block bg-gradient-btn text-primary-foreground font-body font-bold text-lg px-10 py-4 rounded-full shadow-btn hover:scale-105 transition-transform duration-300 mb-6">
-              QUERO AS 100 RECEITAS — R$ 27,90
-            </a>
-          </AnimateOnScroll>
 
           <AnimateOnScroll delay={300}>
             <div className="relative mx-auto max-w-md mb-6">
