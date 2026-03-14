@@ -7,6 +7,7 @@ import testImg7 from "@/assets/testimonial-img-7.jpg";
 import testImg9 from "@/assets/testimonial-img-9.jpg";
 import testImg10 from "@/assets/testimonial-img-10.jpg";
 import testImg11 from "@/assets/testimonial-img-11.png";
+import testImg12 from "@/assets/testimonial-img-12.jpg";
 
 const TestimonialsSection = () => {
   return (
