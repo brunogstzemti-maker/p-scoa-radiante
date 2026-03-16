@@ -39,15 +39,6 @@ const AboutSection = () => {
               <p className="font-body font-semibold text-primary leading-relaxed mt-4">
                 Já ajudei centenas de confeiteiras a lucrar mais na Páscoa com receitas que realmente funcionam.
               </p>
-              <a
-                href="https://instagram.com/lauramenezes_drp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-4 text-primary font-display font-bold hover:opacity-80 transition-opacity"
-              >
-                <img src={instagramIcon} alt="Instagram" className="w-6 h-6" />
-                @lauramenezes_drp
-              </a>
             </div>
           </AnimateOnScroll>
         </div>
