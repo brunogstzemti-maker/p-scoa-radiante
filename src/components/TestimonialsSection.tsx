@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
 
 
         <div className="grid grid-cols-1 gap-6 max-w-xl mx-auto">
-          {[testImg10, testImg1, testImg2, testImg4, testImg5, testImg7, testImg9, testImg11].map((img, i) => (
+          {[testImg1, testImg2, testImg4, testImg5, testImg7, testImg9, testImg11].map((img, i) => (
             <AnimateOnScroll key={i} delay={200 + i * 100}>
               <div className="rounded-2xl overflow-hidden shadow-md border border-border">
                 <img src={img} alt={`Depoimento ${i + 1}`} className="w-full h-auto object-contain" loading="lazy" />
