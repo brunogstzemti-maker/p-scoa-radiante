@@ -24,8 +24,6 @@ const CountdownBar = () => {
 
   const pad = (n: number) => String(n).padStart(2, "0");
 
-  const today = new Date();
-  const dateStr = today.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" });
 
   return (
     <div className="w-full bg-[hsl(0,72%,45%)] py-3 px-4 text-center sticky top-0 z-50">
@@ -36,7 +34,7 @@ const CountdownBar = () => {
         Desconto especial só <span className="font-bold text-[hsl(48,100%,50%)]">HOJE</span> nesta página:
       </p>
       <p className="font-body font-medium text-primary-foreground text-xs md:text-sm">
-        {dateStr} | Tempo restante:{" "}
+        Tempo restante:{" "}
         <span className="font-bold text-[hsl(48,100%,50%)]">
           {pad(timeLeft.minutes)}m {pad(timeLeft.seconds)}s
         </span>
